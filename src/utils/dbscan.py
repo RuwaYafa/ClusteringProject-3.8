@@ -52,7 +52,7 @@ def best_eps(X, dataset_name, n_neighbors=5, logger=None):
     plt.title(f'K-Distance – {dataset_name}')
     plt.legend()
 
-    plot_path = f'../dbscan_results/{dataset_name}/elbow_{dataset_name}_{n_neighbors}NN_eps{eps:.3f}.png'
+    plot_path = f'dbscan_results/{dataset_name}/elbow_{dataset_name}_{n_neighbors}NN_eps{eps:.3f}.png'
     os.makedirs(os.path.dirname(plot_path), exist_ok=True)
     plt.savefig(plot_path, dpi=300, bbox_inches='tight')
     plt.close()
@@ -123,7 +123,7 @@ def dbscan(X, y, dataset_name,
     scaling, metrics, and visualisations.
     """
     logger = logger or logging.getLogger(__name__)
-    output_dir = f'../dbscan_results/{dataset_name}/'
+    output_dir = f'dbscan_results/{dataset_name}/'
     os.makedirs(output_dir, exist_ok=True)
     logger.info("DBSCAN outputs will be saved to %s", os.path.abspath(output_dir))
 
@@ -134,27 +134,33 @@ def dbscan(X, y, dataset_name,
     # ------------------------------------------------------------------
     # 1. Determine eps & min_samples # the best parameter I tried (eps, min_sample)
     default_params = {
-        'iris':              (0.6, 4),
-        '3gaussians_std0.6': (0.35, 10),
-        '3gaussians_std0.9': (0.54, 20),
-        'circles':           (0.18, 7),
-        'moons':             (0.18, 7),
-        'digits':            (8.0, 128),
-        'complex9':          (0.9, 18), #.6,.7,.8
-        'vehicle':           (8.0, 36) #6,7,9,10
+        'iris':              (0.6868, 4),#4
+        '3gaussians_std0.6': (0.4008, 10),#3
+        '3gaussians_std0.9': (0.4008, 20),#1
+        'circles':           (0.1887, 7),#2
+        'moons':             (0.1427, 7),#2
+        'digits':            (8.5134, 10), #best neigbour k = 1
+        'complex9':          (8.5134, 4), #k=9
+        'vehicle':           (3.9213, 30) #3
     }
     eps         = eps_param
     min_samples = min_samples_param
 
     if dataset_name in default_params:
+        # print('rfa')
         if eps is None:
             eps = default_params[dataset_name][0]
         if min_samples is None:
             min_samples = default_params[dataset_name][1]
-
+    # print()
+    # print('--------------------------------------------------------')
+    # print(eps)
+    # print(dataset_name)
+    # print(min_samples)
+    # print('---------------------------------------------------------')
     # Auto-eps only if caller did not set eps_param
     if eps_param is None:
-        eps = best_eps(X_scaled, dataset_name, min_samples, logger=logger)
+        eps = best_eps(X_scaled, dataset_name, min_samples)
 
     logger.info("Final parameters -> eps=%.4f  min_samples=%d", eps, min_samples)
 
@@ -254,3 +260,8 @@ def dbscan(X, y, dataset_name,
     logger.info("Saved DBSCAN plot -> %s", os.path.join(output_dir, fname))
 
     return labels
+
+
+
+
+

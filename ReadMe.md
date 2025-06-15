@@ -17,6 +17,9 @@
 │   ├── circles.csv
 │   ├── iris.csv
 │   └── moons.csv
+│   ├── digits.csv
+│   ├── complex9.csv
+│   └── vehicle.csv
 ├── dbscan_results/
 ├── kmean-results/
 ├── logs/
@@ -120,9 +123,10 @@ https://www.python.org/downloads/release/python-3810/
 - pip install requests
 
 ---
-### ▶️ pip freeze
-pip install -r requirement3.8.txt
-pip install -r requirement3.12.txt
+### ▶️ pip freeze 
+To collect the requirement:
+- pip install -r requirement3.8.txt
+- pip install -r requirement3.12.txt
 
 
 ---

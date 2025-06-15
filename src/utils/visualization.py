@@ -105,7 +105,7 @@ def save_visualizations(X, labels, centroids, feature_names, dataset_name, k, ep
     if logger is None:
         logger = logging.getLogger() # Get default logger if not provided
 
-    output_dir = '../kmean-results' # Adjusted relative path to be consistent with main.py
+    output_dir = 'kmean-results/vis' # Adjusted relative path to be consistent with main.py
     os.makedirs(output_dir, exist_ok=True)
     logger.info(f"Saving K-Means visualizations to: {os.path.abspath(output_dir)}") # Added logger.info
 

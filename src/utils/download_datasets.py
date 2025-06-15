@@ -18,7 +18,8 @@ def download_datasets(logger=None): # ADDED: Add logger as an argument, with a d
         logger = logging.getLogger()
 
     # Create data directory if it doesn't exist
-    data_dir = '../data_out'
+    data_dir = 'data'
+    # data_dir = '../data_out'
     os.makedirs(data_dir, exist_ok=True)
     logger.info(f"Ensured data directory exists: {os.path.abspath(data_dir)}") # Changed print to logger.info
 

@@ -1,4 +1,4 @@
-# E:\ClusteringProject\src\utils\logger.py
+# E:\PythonProject\src\utils\logger.py
 import logging
 import os
 from datetime import datetime
@@ -8,7 +8,7 @@ def setup_logging(log_file_name="clustering_results-3.8v.log"):
     Sets up logging to a file and the console.
     """
     # Create logs directory if it doesn't exist
-    log_dir = '../logs'
+    log_dir = 'logs'
     os.makedirs(log_dir, exist_ok=True)
 
     log_path = os.path.join(log_dir, log_file_name)

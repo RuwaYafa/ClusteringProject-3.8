@@ -130,7 +130,7 @@ def kmeans(X, k, max_iter=100, epsilon=1e-7, init_method='random', dataset_name=
 
     logger.info(f"Final loss: {loss:.7f}")
 
-    output_dir = f'../kmean-results/{dataset_name}/'
+    output_dir = f'kmean-results/{dataset_name}/'
     os.makedirs(output_dir, exist_ok=True)
 
     if not suppress_plots:

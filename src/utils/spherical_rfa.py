@@ -118,7 +118,7 @@ def save_spherical_visualizations(X, labels, centroids, dataset_name, k):
     3. Centroid angular relationships (radians)
     """
     # Create the directory for 2D results
-    output_dir_2d = f'../spherical-results/2d/{dataset_name}/' # Changed path for organization
+    output_dir_2d = f'spherical-results/2d/{dataset_name}/' # Changed path for organization
     os.makedirs(output_dir_2d, exist_ok=True)
 
     # 1. PCA Projection (2D)
@@ -194,7 +194,7 @@ def save_spherical_3d_pca_visualization(X, labels, centroids, dataset_name, k, l
         logger = logging.getLogger()
 
     # Create the directory for 3D results
-    output_dir_3d = f'../spherical-results/3d/{dataset_name}/' # Changed path for organization
+    output_dir_3d = f'spherical-results/3d/{dataset_name}/' # Changed path for organization
     os.makedirs(output_dir_3d, exist_ok=True)
 
     # Determine components for PCA
