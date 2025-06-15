@@ -4,9 +4,9 @@ Ruwa F. AbuHweidi @ 2025
 rabuhweidi@birzeit.edu
 '''
 
-![img.png](img.png)
+![img.png](project_result/img.png)
 
-### Code structure:
+### [Code structure:]()
 """
 .
 ├── .venv/
