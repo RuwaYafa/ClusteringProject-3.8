@@ -78,7 +78,6 @@ Install required Python packages:
 ### ▶️ Step 3: Implement k-Means from Scratch
 Here's how to approach the implementation:
 
----
 ### ▶️ Pseudocode for k-Means:
 [1] Initialize k centroids randomly from data points
 
