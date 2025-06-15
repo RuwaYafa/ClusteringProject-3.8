@@ -45,21 +45,24 @@
 
 ---
 ### ▶️ Step 1: Understand the Project Requirements
-Main Task: Implement k-means clustering from scratch in Python
+> Main Task: Implement k-means clustering from scratch in Python
+>>│   │   ├── k_mean.py
 
->│   │   ├── k_mean.py
-Base code: https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
+- Base code: https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
 
-Additional Tasks:
+
+>Additional Tasks:
 Compare with DBSCAN and Spherical Clustering (using existing implementations)
 Apply to provided datasets
+>>│   │   ├── spherical_rfa.py
+>>>Base code inspiring from: 
+>>>>https://github.com/jasonlaska/spherecluster
 
->│   │   ├── spherical_rfa.py
-Base code inspiring from: https://github.com/jasonlaska/spherecluster
-package: https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
+>package:
+>>https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
 
 >│   │   ├── dbscan.py
-base code: https://stackoverflow.com/questions/61233304/clustering-with-dbscan-how-to-train-a-model-if-you-dont-set-the-number-of-clust
+>>base code: https://stackoverflow.com/questions/61233304/clustering-with-dbscan-how-to-train-a-model-if-you-dont-set-the-number-of-clust
 Visualize results (including dimensionality reduction for high-dimension data)
 Write a comprehensive report in LaTeX
 
