@@ -1,8 +1,8 @@
-## Machine learning Project- Kmeans - Dr. Mohammed Khalilia
-'''
-Ruwa F. AbuHweidi @ 2025
-rabuhweidi@birzeit.edu
-'''
+## Machine learning Project- Kmeans 
+
+- Lecture: Dr. Mohammed Khalilia
+- Ruwa F. AbuHweidi @ 2025
+
 
 ![img.png](project_result/img.png)
 
@@ -68,8 +68,8 @@ Write a comprehensive report in LaTeX
 ---
 ### ▶️ Step 2: Set Up Your Development Environment
 Install required Python packages: 
-All clustering algorithm work on python 3.8
-All clustering algorithm work on python 3.12 except spherical clustering
+- All clustering algorithm work on python 3.8
+- All clustering algorithm work on python 3.12 except spherical clustering
       
 ---
 ### ▶️ Step 3: Implement k-Means from Scratch
@@ -87,7 +87,7 @@ Here's how to approach the implementation:
 ---
 ### ▶️ Python Implementation Steps:
 
-The project implemented in python 3.12.
+>The project implemented in python 3.12.
 you can run k_mean and DBSCAN except Spherical clustering.
 It implemented in python 3.8, with slightly change in the spherical library 
 https://github.com/jasonlaska/spherecluster.git
@@ -98,31 +98,34 @@ https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.w
 ---
 ### ▶️ Hints to run spherical_rfa.py:
 
-python --version
-Python 3.8.10 
+>python --version
+>>Python 3.8.10 
 https://www.youtube.com/watch?v=AUiM1UaRCPc  
 https://www.python.org/downloads/release/python-3810/
 
-pip install spherecluster==0.1.7  
-https://pypi.org/project/spherecluster/0.1.2/#description
-pip debug --verbose
-pip install requests
+>pip install spherecluster==0.1.7  
+>>https://pypi.org/project/spherecluster/0.1.2/#description
 
-from -> https://www.cgohlke.com/
-pip install setuptools-50.0.0-py3-none-any.whl  # https://pypi.org/project/setuptools/50.0.0/
-pip install setuptools==50.0.0
-pip install pip-20.2.4-py2.py3-none-any.whl > in download  # https://www.piwheels.org/project/pip/
-pip install scikit-learn==0.22  # https://pypi.org/project/scikit-learn/0.22/#history
-pip install requests
+>pip debug --verbose
+
+>pip install requests
+
+-[x] from -> https://www.cgohlke.com/
+- pip install setuptools-50.0.0-py3-none-any.whl  # https://pypi.org/project/setuptools/50.0.0/
+- pip install setuptools==50.0.0
+- pip install pip-20.2.4-py2.py3-none-any.whl > in download  # https://www.piwheels.org/project/pip/
+- pip install scikit-learn==0.22  # https://pypi.org/project/scikit-learn/0.22/#history
+- pip install requests
 
 ---
 ### ▶️ pip freeze
 pip install -r requirement3.8.txt
 pip install -r requirement3.12.txt
 
+
+---
 ##### 🙏 Acknowledgments
-We thank Professor Mohammed Khalilia for his expert guidance and open educational contributions on GitHub:
-https://github.com/mohammedkhalilia
+We thank Professor [Mohammed Khalilia](https://github.com/mohammedkhalilia) for his expert guidance and open educational contributions on GitHub:
 
 We also appreciate the help of Large Language Models (LLMs), which offered respectful and minimal guidance when asked, without altering the author's custom implementations.
 
