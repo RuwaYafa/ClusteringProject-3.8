@@ -28,10 +28,10 @@ if __name__ == '__main__':
 
     feature_names = "None"
     # DBSCAN
-    eps = None #DBSCAN
-    min_samples = None
-    # eps = 0.6 #DBSCAN
-    # min_samples = 4
+    # eps = None #DBSCAN
+    # min_samples = None
+    eps = 0.6 #DBSCAN
+    min_samples = 4
     use_pca = False
 
     # List of datasets and their cluster numbers

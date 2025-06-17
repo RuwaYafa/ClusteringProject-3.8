@@ -1,0 +1,892 @@
+2025-06-16 12:58:58,187 - INFO - --- Clustering Session Started: 2025-06-16 12:58:58 ---
+2025-06-16 12:58:58,188 - INFO - Results will be saved to: E:\PythonProject\logs\clustering_results-3.8v.log
+2025-06-16 12:58:58,188 - INFO - 
+@---- ||||||||||||| iris Dataset ||||||||||||| ----@
+
+2025-06-16 12:58:58,190 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:58:58,190 - INFO - Running k-Means on iris: k=3, init=farthest
+2025-06-16 12:58:58,208 - INFO - Final loss: 0.8601870
+2025-06-16 12:58:58,656 - INFO - Saved convergence plot to kmean-results/iris/convergence_iris_k3.png
+2025-06-16 12:58:58,980 - INFO - Saved clusters plot to kmean-results/iris/clusters_iris_k3.png
+2025-06-16 12:58:59,252 - INFO - Saved cluster+loss plot to kmean-results/iris/clusters_loss_iris_k3.png
+2025-06-16 12:58:59,470 - INFO - Saved Dunn plot to kmean-results/iris/dunn_iris_k3.png
+2025-06-16 12:58:59,470 - INFO - Running k-Means on iris: k=1, init=farthest
+2025-06-16 12:58:59,473 - INFO - Final loss: 1.8650554
+2025-06-16 12:58:59,473 - INFO - RESULT: kmeans Algorithm for iris in k=1,Dunn=inf
+2025-06-16 12:58:59,473 - INFO - Running k-Means on iris: k=2, init=farthest
+2025-06-16 12:58:59,476 - INFO - Final loss: 1.0601245
+2025-06-16 12:58:59,479 - INFO - RESULT: kmeans Algorithm for iris in k=2,Silhouette=0.5818,Calinski-Harabasz=251.3493,Dunn=0.5488
+2025-06-16 12:58:59,480 - INFO - Running k-Means on iris: k=3, init=farthest
+2025-06-16 12:58:59,483 - INFO - Final loss: 0.8620920
+2025-06-16 12:58:59,486 - INFO - RESULT: kmeans Algorithm for iris in k=3,Silhouette=0.4565,Calinski-Harabasz=239.4845,Dunn=0.3461
+2025-06-16 12:58:59,486 - INFO - Running k-Means on iris: k=4, init=farthest
+2025-06-16 12:58:59,488 - INFO - Final loss: 0.7882850
+2025-06-16 12:58:59,491 - INFO - RESULT: kmeans Algorithm for iris in k=4,Silhouette=0.4008,Calinski-Harabasz=204.9322,Dunn=0.3560
+2025-06-16 12:58:59,492 - INFO - Running k-Means on iris: k=5, init=farthest
+2025-06-16 12:58:59,494 - INFO - Final loss: 0.7519487
+2025-06-16 12:58:59,497 - INFO - RESULT: kmeans Algorithm for iris in k=5,Silhouette=0.3351,Calinski-Harabasz=174.1971,Dunn=0.2322
+2025-06-16 12:58:59,497 - INFO - Running k-Means on iris: k=6, init=farthest
+2025-06-16 12:58:59,500 - INFO - Final loss: 0.6728971
+2025-06-16 12:58:59,503 - INFO - RESULT: kmeans Algorithm for iris in k=6,Silhouette=0.3635,Calinski-Harabasz=180.7242,Dunn=0.2999
+2025-06-16 12:58:59,758 - INFO - Saved elbow plot to kmean-results/iris/elbow_iris.png
+2025-06-16 12:58:59,764 - INFO - RESULT: kmeans Algorithm for iris in k=3,Silhouette=0.4599,Calinski-Harabasz=241.9044,Dunn=0.3408,ARI=0.6201,AMI=0.6552,Homogeneity=0.6591,Completeness=0.6598,V-Measure=0.6595
+2025-06-16 12:58:59,765 - INFO - iris-K_means Prediction Accuracy (Hungarian Matched): 0.8333333333333334
+2025-06-16 12:58:59,766 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 12:59:01,863 - INFO - Saved pairwise features plot for iris.
+2025-06-16 12:59:02,027 - INFO - 
+--- PCA Components for iris ---
+2025-06-16 12:59:02,028 - INFO - 1st PC explains 73.0% variance
+2025-06-16 12:59:02,028 - INFO - 2nd PC explains 22.9% variance
+2025-06-16 12:59:02,028 - INFO - Total explained variance: 95.8%
+2025-06-16 12:59:02,545 - INFO - Saved PCA projection plot for iris.
+2025-06-16 12:59:03,637 - INFO - 
+--- T-SNE Diagnostics for iris ---
+2025-06-16 12:59:03,637 - INFO - Perplexity: 30
+2025-06-16 12:59:03,637 - INFO - KL Divergence: 0.17
+2025-06-16 12:59:03,637 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 12:59:04,226 - INFO - Saved t-SNE projection plot for iris.
+2025-06-16 12:59:04,227 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 12:59:04,227 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\iris
+2025-06-16 12:59:04,228 - INFO - Starting best_eps for iris  k=4
+2025-06-16 12:59:04,229 - INFO - points=150  k-dist[min]=0.1789  k-dist[max]=1.6577
+2025-06-16 12:59:04,229 - INFO - knee index=133  chosen eps=0.6868
+2025-06-16 12:59:04,938 - INFO - Saved k-distance plot -> ../dbscan_results/iris/elbow_iris_4NN_eps0.687.png
+2025-06-16 12:59:04,939 - INFO - Final parameters -> eps=0.6868  min_samples=4
+2025-06-16 12:59:04,942 - INFO - clusters=2  noise=6 (4.0%)
+2025-06-16 12:59:04,950 - INFO - ARI=0.546  Homog.=0.569  Compl.=0.798  AMI=0.659
+2025-06-16 12:59:04,952 - INFO - Dunn: 0.423
+2025-06-16 12:59:04,954 - INFO - Silhouette=0.511
+2025-06-16 12:59:04,955 - INFO - V-measure=0.664
+2025-06-16 12:59:04,956 - INFO - Calinski_Harabasz_Score: 119.882
+2025-06-16 12:59:06,170 - INFO - Saved DBSCAN plot -> dbscan_results/iris/dbscan_iris_eps0.687_min4.png
+2025-06-16 12:59:06,171 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\iris
+2025-06-16 12:59:06,173 - INFO - Starting best_eps for iris  k=4
+2025-06-16 12:59:06,174 - INFO - points=150  k-dist[min]=0.1789  k-dist[max]=1.6577
+2025-06-16 12:59:06,176 - INFO - knee index=133  chosen eps=0.6868
+2025-06-16 12:59:06,754 - INFO - Saved k-distance plot -> ../dbscan_results/iris/elbow_iris_4NN_eps0.687.png
+2025-06-16 12:59:06,755 - INFO - Final parameters -> eps=0.6868  min_samples=4
+2025-06-16 12:59:06,756 - INFO - clusters=2  noise=6 (4.0%)
+2025-06-16 12:59:06,761 - INFO - ARI=0.546  Homog.=0.569  Compl.=0.798  AMI=0.659
+2025-06-16 12:59:06,762 - INFO - Dunn: 0.423
+2025-06-16 12:59:06,764 - INFO - Silhouette=0.511
+2025-06-16 12:59:06,766 - INFO - V-measure=0.664
+2025-06-16 12:59:06,766 - INFO - Calinski_Harabasz_Score: 119.882
+2025-06-16 12:59:06,769 - INFO - PCA vis -> 2D  var=95.8%
+2025-06-16 12:59:07,465 - INFO - Saved DBSCAN plot -> dbscan_results/iris/dbscan_iris_eps0.687_min4_pca.png
+2025-06-16 12:59:07,466 - INFO - iris-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 0.6805555555555556
+2025-06-16 12:59:07,467 - INFO - iris-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 0.6805555555555556
+2025-06-16 12:59:07,467 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:07,467 - INFO - 
+--- Running Spherical K-Means for iris (k=3) ---
+2025-06-16 12:59:07,481 - INFO - 
+--- Clustering Metrics for iris (k=3) ---
+2025-06-16 12:59:07,483 - INFO - Silhouette Coefficient: 0.447
+2025-06-16 12:59:07,484 - INFO - Homogeneity: 0.650
+2025-06-16 12:59:07,485 - INFO - Completeness: 0.660
+2025-06-16 12:59:07,486 - INFO - V-measure: 0.655
+2025-06-16 12:59:07,486 - INFO - Adjusted Rand Index: 0.604
+2025-06-16 12:59:07,488 - INFO - Adjusted Mutual Information: 0.651
+2025-06-16 12:59:07,489 - INFO - Calinski_Harabasz_Score: 233.725
+2025-06-16 12:59:07,489 - INFO - Dunn: 0.219
+2025-06-16 12:59:07,490 - INFO - --------------------------------------------------
+2025-06-16 12:59:07,490 - INFO - 
+--- Saving Visualizations for iris ---
+2025-06-16 12:59:07,579 - INFO - 
+--- PCA Components for iris ---
+2025-06-16 12:59:07,580 - INFO - 1st PC explains 73.0% variance
+2025-06-16 12:59:07,580 - INFO - 2nd PC explains 22.9% variance
+2025-06-16 12:59:07,580 - INFO - Total explained variance: 95.8%
+2025-06-16 12:59:09,254 - INFO - Saved 2D visualization plots for iris.
+2025-06-16 12:59:09,905 - INFO - Saved 3D PCA plot to spherical-results/3d/iris//iris_spherical_3_3d_pca.png
+2025-06-16 12:59:09,905 - INFO - Saved 3D PCA plot for iris.
+2025-06-16 12:59:09,906 - INFO - iris-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.82
+2025-06-16 12:59:09,906 - INFO - 
+@---- ||||||||||||| 3gaussians_std0.6 Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:09,910 - INFO - Features: 2 without labels
+2025-06-16 12:59:09,910 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:09,910 - INFO - Running k-Means on 3gaussians_std0.6: k=3, init=farthest
+2025-06-16 12:59:09,913 - INFO - Final loss: 0.4683595
+2025-06-16 12:59:10,198 - INFO - Saved convergence plot to kmean-results/3gaussians_std0.6/convergence_3gaussians_std0.6_k3.png
+2025-06-16 12:59:10,467 - INFO - Saved clusters plot to kmean-results/3gaussians_std0.6/clusters_3gaussians_std0.6_k3.png
+2025-06-16 12:59:10,760 - INFO - Saved cluster+loss plot to kmean-results/3gaussians_std0.6/clusters_loss_3gaussians_std0.6_k3.png
+2025-06-16 12:59:10,969 - INFO - Saved Dunn plot to kmean-results/3gaussians_std0.6/dunn_3gaussians_std0.6_k3.png
+2025-06-16 12:59:10,970 - INFO - Running k-Means on 3gaussians_std0.6: k=1, init=farthest
+2025-06-16 12:59:10,971 - INFO - Final loss: 1.3561707
+2025-06-16 12:59:10,972 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=1,Dunn=inf
+2025-06-16 12:59:10,972 - INFO - Running k-Means on 3gaussians_std0.6: k=2, init=farthest
+2025-06-16 12:59:10,974 - INFO - Final loss: 0.8199044
+2025-06-16 12:59:10,977 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=2,Silhouette=0.5576,Calinski-Harabasz=397.8880,Dunn=0.6053
+2025-06-16 12:59:10,977 - INFO - Running k-Means on 3gaussians_std0.6: k=3, init=farthest
+2025-06-16 12:59:10,979 - INFO - Final loss: 0.4683595
+2025-06-16 12:59:10,982 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=3,Silhouette=0.6591,Calinski-Harabasz=908.3529,Dunn=0.8173
+2025-06-16 12:59:10,982 - INFO - Running k-Means on 3gaussians_std0.6: k=4, init=farthest
+2025-06-16 12:59:10,985 - INFO - Final loss: 0.4450215
+2025-06-16 12:59:10,988 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=4,Silhouette=0.5066,Calinski-Harabasz=678.0068,Dunn=0.2652
+2025-06-16 12:59:10,989 - INFO - Running k-Means on 3gaussians_std0.6: k=5, init=farthest
+2025-06-16 12:59:10,991 - INFO - Final loss: 0.3999357
+2025-06-16 12:59:10,994 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=5,Silhouette=0.4533,Calinski-Harabasz=623.7769,Dunn=0.2818
+2025-06-16 12:59:10,995 - INFO - Running k-Means on 3gaussians_std0.6: k=6, init=farthest
+2025-06-16 12:59:10,999 - INFO - Final loss: 0.3739400
+2025-06-16 12:59:11,002 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=6,Silhouette=0.3127,Calinski-Harabasz=579.3794,Dunn=0.2715
+2025-06-16 12:59:11,239 - INFO - Saved elbow plot to kmean-results/3gaussians_std0.6/elbow_3gaussians_std0.6.png
+2025-06-16 12:59:11,245 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.6 in k=3,Silhouette=0.6591,Calinski-Harabasz=908.3529,Dunn=0.8173,ARI=1.0000,AMI=1.0000,Homogeneity=1.0000,Completeness=1.0000,V-Measure=1.0000
+2025-06-16 12:59:11,246 - INFO - 3gaussians_std0.6-K_means Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 12:59:11,248 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 12:59:12,071 - INFO - Saved pairwise features plot for 3gaussians_std0.6.
+2025-06-16 12:59:12,165 - INFO - 
+--- PCA Components for 3gaussians_std0.6 ---
+2025-06-16 12:59:12,165 - INFO - 1st PC explains 65.2% variance
+2025-06-16 12:59:12,166 - INFO - 2nd PC explains 34.8% variance
+2025-06-16 12:59:12,166 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:12,499 - INFO - Saved PCA projection plot for 3gaussians_std0.6.
+2025-06-16 12:59:13,592 - INFO - 
+--- T-SNE Diagnostics for 3gaussians_std0.6 ---
+2025-06-16 12:59:13,592 - INFO - Perplexity: 30
+2025-06-16 12:59:13,592 - INFO - KL Divergence: 0.17
+2025-06-16 12:59:13,592 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 12:59:13,890 - INFO - Saved t-SNE projection plot for 3gaussians_std0.6.
+2025-06-16 12:59:13,890 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 12:59:13,891 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\3gaussians_std0.6
+2025-06-16 12:59:13,891 - INFO - Starting best_eps for 3gaussians_std0.6  k=10
+2025-06-16 12:59:13,892 - INFO - points=299  k-dist[min]=0.1368  k-dist[max]=0.7273
+2025-06-16 12:59:13,893 - INFO - knee index=260  chosen eps=0.4008
+2025-06-16 12:59:14,348 - INFO - Saved k-distance plot -> ../dbscan_results/3gaussians_std0.6/elbow_3gaussians_std0.6_10NN_eps0.401.png
+2025-06-16 12:59:14,349 - INFO - Final parameters -> eps=0.4008  min_samples=10
+2025-06-16 12:59:14,351 - INFO - clusters=3  noise=4 (1.3%)
+2025-06-16 12:59:14,355 - INFO - ARI=0.970  Homog.=0.970  Compl.=0.923  AMI=0.946
+2025-06-16 12:59:14,358 - INFO - Dunn: 0.124
+2025-06-16 12:59:14,361 - INFO - Silhouette=0.604
+2025-06-16 12:59:14,363 - INFO - V-measure=0.946
+2025-06-16 12:59:14,363 - INFO - Calinski_Harabasz_Score: 575.184
+2025-06-16 12:59:15,311 - INFO - Saved DBSCAN plot -> dbscan_results/3gaussians_std0.6/dbscan_3gaussians_std0.6_eps0.401_min10.png
+2025-06-16 12:59:15,312 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\3gaussians_std0.6
+2025-06-16 12:59:15,313 - INFO - Starting best_eps for 3gaussians_std0.6  k=10
+2025-06-16 12:59:15,314 - INFO - points=299  k-dist[min]=0.1368  k-dist[max]=0.7273
+2025-06-16 12:59:15,315 - INFO - knee index=260  chosen eps=0.4008
+2025-06-16 12:59:15,752 - INFO - Saved k-distance plot -> ../dbscan_results/3gaussians_std0.6/elbow_3gaussians_std0.6_10NN_eps0.401.png
+2025-06-16 12:59:15,753 - INFO - Final parameters -> eps=0.4008  min_samples=10
+2025-06-16 12:59:15,755 - INFO - clusters=3  noise=4 (1.3%)
+2025-06-16 12:59:15,758 - INFO - ARI=0.970  Homog.=0.970  Compl.=0.923  AMI=0.946
+2025-06-16 12:59:15,763 - INFO - Dunn: 0.124
+2025-06-16 12:59:15,768 - INFO - Silhouette=0.604
+2025-06-16 12:59:15,770 - INFO - V-measure=0.946
+2025-06-16 12:59:15,770 - INFO - Calinski_Harabasz_Score: 575.184
+2025-06-16 12:59:16,705 - INFO - Saved DBSCAN plot -> dbscan_results/3gaussians_std0.6/dbscan_3gaussians_std0.6_eps0.401_min10_pca.png
+2025-06-16 12:59:16,706 - INFO - 3gaussians_std0.6-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 0.9966101694915255
+2025-06-16 12:59:16,708 - INFO - 3gaussians_std0.6-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 0.9966101694915255
+2025-06-16 12:59:16,708 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:16,709 - INFO - 
+--- Running Spherical K-Means for 3gaussians_std0.6 (k=3) ---
+2025-06-16 12:59:16,724 - INFO - 
+--- Clustering Metrics for 3gaussians_std0.6 (k=3) ---
+2025-06-16 12:59:16,727 - INFO - Silhouette Coefficient: 0.659
+2025-06-16 12:59:16,728 - INFO - Homogeneity: 1.000
+2025-06-16 12:59:16,729 - INFO - Completeness: 1.000
+2025-06-16 12:59:16,730 - INFO - V-measure: 1.000
+2025-06-16 12:59:16,731 - INFO - Adjusted Rand Index: 1.000
+2025-06-16 12:59:16,733 - INFO - Adjusted Mutual Information: 1.000
+2025-06-16 12:59:16,734 - INFO - Calinski_Harabasz_Score: 908.353
+2025-06-16 12:59:16,734 - INFO - Dunn: 0.507
+2025-06-16 12:59:16,734 - INFO - --------------------------------------------------
+2025-06-16 12:59:16,734 - INFO - 
+--- Saving Visualizations for 3gaussians_std0.6 ---
+2025-06-16 12:59:16,852 - INFO - 
+--- PCA Components for 3gaussians_std0.6 ---
+2025-06-16 12:59:16,852 - INFO - 1st PC explains 65.2% variance
+2025-06-16 12:59:16,853 - INFO - 2nd PC explains 34.8% variance
+2025-06-16 12:59:16,853 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:18,441 - INFO - Saved 2D visualization plots for 3gaussians_std0.6.
+2025-06-16 12:59:19,119 - INFO - Saved 3D PCA plot to spherical-results/3d/3gaussians_std0.6//3gaussians_std0.6_spherical_3_3d_pca.png
+2025-06-16 12:59:19,119 - INFO - Saved 3D PCA plot for 3gaussians_std0.6.
+2025-06-16 12:59:19,121 - INFO - 3gaussians_std0.6-Spherical_K_means Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 12:59:19,121 - INFO - 
+@---- ||||||||||||| 3gaussians_std0.9 Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:19,124 - INFO - Features: 2 without labels
+2025-06-16 12:59:19,124 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:19,125 - INFO - Running k-Means on 3gaussians_std0.9: k=3, init=farthest
+2025-06-16 12:59:19,128 - INFO - Final loss: 0.6301327
+2025-06-16 12:59:19,561 - INFO - Saved convergence plot to kmean-results/3gaussians_std0.9/convergence_3gaussians_std0.9_k3.png
+2025-06-16 12:59:20,119 - INFO - Saved clusters plot to kmean-results/3gaussians_std0.9/clusters_3gaussians_std0.9_k3.png
+2025-06-16 12:59:20,656 - INFO - Saved cluster+loss plot to kmean-results/3gaussians_std0.9/clusters_loss_3gaussians_std0.9_k3.png
+2025-06-16 12:59:20,991 - INFO - Saved Dunn plot to kmean-results/3gaussians_std0.9/dunn_3gaussians_std0.9_k3.png
+2025-06-16 12:59:20,992 - INFO - Running k-Means on 3gaussians_std0.9: k=1, init=farthest
+2025-06-16 12:59:20,994 - INFO - Final loss: 1.3208712
+2025-06-16 12:59:20,996 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=1,Dunn=inf
+2025-06-16 12:59:20,996 - INFO - Running k-Means on 3gaussians_std0.9: k=2, init=farthest
+2025-06-16 12:59:21,000 - INFO - Final loss: 0.8872737
+2025-06-16 12:59:21,004 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=2,Silhouette=0.4704,Calinski-Harabasz=292.7613,Dunn=0.4828
+2025-06-16 12:59:21,005 - INFO - Running k-Means on 3gaussians_std0.9: k=3, init=farthest
+2025-06-16 12:59:21,009 - INFO - Final loss: 0.6300540
+2025-06-16 12:59:21,013 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=3,Silhouette=0.5160,Calinski-Harabasz=441.5582,Dunn=0.5977
+2025-06-16 12:59:21,013 - INFO - Running k-Means on 3gaussians_std0.9: k=4, init=farthest
+2025-06-16 12:59:21,017 - INFO - Final loss: 0.5911431
+2025-06-16 12:59:21,021 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=4,Silhouette=0.4303,Calinski-Harabasz=356.8592,Dunn=0.4522
+2025-06-16 12:59:21,022 - INFO - Running k-Means on 3gaussians_std0.9: k=5, init=farthest
+2025-06-16 12:59:21,026 - INFO - Final loss: 0.5486204
+2025-06-16 12:59:21,032 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=5,Silhouette=0.3848,Calinski-Harabasz=319.9587,Dunn=0.3480
+2025-06-16 12:59:21,033 - INFO - Running k-Means on 3gaussians_std0.9: k=6, init=farthest
+2025-06-16 12:59:21,039 - INFO - Final loss: 0.4969352
+2025-06-16 12:59:21,043 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=6,Silhouette=0.3432,Calinski-Harabasz=320.2984,Dunn=0.3128
+2025-06-16 12:59:21,422 - INFO - Saved elbow plot to kmean-results/3gaussians_std0.9/elbow_3gaussians_std0.9.png
+2025-06-16 12:59:21,431 - INFO - RESULT: kmeans Algorithm for 3gaussians_std0.9 in k=3,Silhouette=0.5160,Calinski-Harabasz=441.7840,Dunn=0.5784,ARI=0.8554,AMI=0.8122,Homogeneity=0.8123,Completeness=0.8143,V-Measure=0.8133
+2025-06-16 12:59:21,432 - INFO - 3gaussians_std0.9-K_means Prediction Accuracy (Hungarian Matched): 0.9498327759197325
+2025-06-16 12:59:21,433 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 12:59:22,530 - INFO - Saved pairwise features plot for 3gaussians_std0.9.
+2025-06-16 12:59:22,635 - INFO - 
+--- PCA Components for 3gaussians_std0.9 ---
+2025-06-16 12:59:22,636 - INFO - 1st PC explains 62.2% variance
+2025-06-16 12:59:22,636 - INFO - 2nd PC explains 37.8% variance
+2025-06-16 12:59:22,636 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:23,037 - INFO - Saved PCA projection plot for 3gaussians_std0.9.
+2025-06-16 12:59:24,718 - INFO - 
+--- T-SNE Diagnostics for 3gaussians_std0.9 ---
+2025-06-16 12:59:24,718 - INFO - Perplexity: 30
+2025-06-16 12:59:24,720 - INFO - KL Divergence: 0.27
+2025-06-16 12:59:24,720 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 12:59:25,367 - INFO - Saved t-SNE projection plot for 3gaussians_std0.9.
+2025-06-16 12:59:25,368 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 12:59:25,368 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\3gaussians_std0.9
+2025-06-16 12:59:25,369 - INFO - Starting best_eps for 3gaussians_std0.9  k=20
+2025-06-16 12:59:25,371 - INFO - points=299  k-dist[min]=0.2913  k-dist[max]=1.1783
+2025-06-16 12:59:25,372 - INFO - knee index=280  chosen eps=0.8062
+2025-06-16 12:59:25,990 - INFO - Saved k-distance plot -> ../dbscan_results/3gaussians_std0.9/elbow_3gaussians_std0.9_20NN_eps0.806.png
+2025-06-16 12:59:25,990 - INFO - Final parameters -> eps=0.8062  min_samples=20
+2025-06-16 12:59:25,993 - INFO - clusters=1  noise=0 (0.0%)
+2025-06-16 12:59:25,998 - INFO - ARI=0.000  Homog.=0.000  Compl.=1.000  AMI=0.000
+2025-06-16 12:59:26,000 - INFO - Dunn: inf
+2025-06-16 12:59:27,180 - INFO - Saved DBSCAN plot -> dbscan_results/3gaussians_std0.9/dbscan_3gaussians_std0.9_eps0.806_min20.png
+2025-06-16 12:59:27,181 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\3gaussians_std0.9
+2025-06-16 12:59:27,182 - INFO - Starting best_eps for 3gaussians_std0.9  k=20
+2025-06-16 12:59:27,185 - INFO - points=299  k-dist[min]=0.2913  k-dist[max]=1.1783
+2025-06-16 12:59:27,186 - INFO - knee index=280  chosen eps=0.8062
+2025-06-16 12:59:27,995 - INFO - Saved k-distance plot -> ../dbscan_results/3gaussians_std0.9/elbow_3gaussians_std0.9_20NN_eps0.806.png
+2025-06-16 12:59:27,995 - INFO - Final parameters -> eps=0.8062  min_samples=20
+2025-06-16 12:59:27,999 - INFO - clusters=1  noise=0 (0.0%)
+2025-06-16 12:59:28,004 - INFO - ARI=0.000  Homog.=0.000  Compl.=1.000  AMI=0.000
+2025-06-16 12:59:28,006 - INFO - Dunn: inf
+2025-06-16 12:59:28,986 - INFO - Saved DBSCAN plot -> dbscan_results/3gaussians_std0.9/dbscan_3gaussians_std0.9_eps0.806_min20_pca.png
+2025-06-16 12:59:28,989 - INFO - 3gaussians_std0.9-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 0.33444816053511706
+2025-06-16 12:59:28,990 - INFO - 3gaussians_std0.9-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 0.33444816053511706
+2025-06-16 12:59:28,990 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:28,991 - INFO - 
+--- Running Spherical K-Means for 3gaussians_std0.9 (k=3) ---
+2025-06-16 12:59:29,018 - INFO - 
+--- Clustering Metrics for 3gaussians_std0.9 (k=3) ---
+2025-06-16 12:59:29,022 - INFO - Silhouette Coefficient: 0.509
+2025-06-16 12:59:29,024 - INFO - Homogeneity: 0.740
+2025-06-16 12:59:29,025 - INFO - Completeness: 0.741
+2025-06-16 12:59:29,027 - INFO - V-measure: 0.740
+2025-06-16 12:59:29,028 - INFO - Adjusted Rand Index: 0.801
+2025-06-16 12:59:29,030 - INFO - Adjusted Mutual Information: 0.739
+2025-06-16 12:59:29,030 - INFO - Calinski_Harabasz_Score: 430.886
+2025-06-16 12:59:29,031 - INFO - Dunn: 0.423
+2025-06-16 12:59:29,031 - INFO - --------------------------------------------------
+2025-06-16 12:59:29,032 - INFO - 
+--- Saving Visualizations for 3gaussians_std0.9 ---
+2025-06-16 12:59:29,204 - INFO - 
+--- PCA Components for 3gaussians_std0.9 ---
+2025-06-16 12:59:29,205 - INFO - 1st PC explains 62.2% variance
+2025-06-16 12:59:29,205 - INFO - 2nd PC explains 37.8% variance
+2025-06-16 12:59:29,206 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:31,478 - INFO - Saved 2D visualization plots for 3gaussians_std0.9.
+2025-06-16 12:59:32,985 - INFO - Saved 3D PCA plot to spherical-results/3d/3gaussians_std0.9//3gaussians_std0.9_spherical_3_3d_pca.png
+2025-06-16 12:59:32,986 - INFO - Saved 3D PCA plot for 3gaussians_std0.9.
+2025-06-16 12:59:32,989 - INFO - 3gaussians_std0.9-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.9297658862876255
+2025-06-16 12:59:32,990 - INFO - 
+@---- ||||||||||||| circles Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:32,998 - INFO - Features: 2 without labels
+2025-06-16 12:59:32,999 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:32,999 - INFO - Running k-Means on circles: k=2, init=farthest
+2025-06-16 12:59:33,013 - INFO - Final loss: 1.0142564
+2025-06-16 12:59:33,870 - INFO - Saved convergence plot to kmean-results/circles/convergence_circles_k2.png
+2025-06-16 12:59:34,476 - INFO - Saved clusters plot to kmean-results/circles/clusters_circles_k2.png
+2025-06-16 12:59:35,070 - INFO - Saved cluster+loss plot to kmean-results/circles/clusters_loss_circles_k2.png
+2025-06-16 12:59:35,616 - INFO - Saved Dunn plot to kmean-results/circles/dunn_circles_k2.png
+2025-06-16 12:59:35,616 - INFO - Running k-Means on circles: k=1, init=farthest
+2025-06-16 12:59:35,621 - INFO - Final loss: 1.3391593
+2025-06-16 12:59:35,622 - INFO - RESULT: kmeans Algorithm for circles in k=1,Dunn=inf
+2025-06-16 12:59:35,622 - INFO - Running k-Means on circles: k=2, init=farthest
+2025-06-16 12:59:35,626 - INFO - Final loss: 1.0145807
+2025-06-16 12:59:35,654 - INFO - RESULT: kmeans Algorithm for circles in k=2,Silhouette=0.3506,Calinski-Harabasz=564.0625,Dunn=0.3846
+2025-06-16 12:59:35,655 - INFO - Running k-Means on circles: k=3, init=farthest
+2025-06-16 12:59:35,661 - INFO - Final loss: 0.8063377
+2025-06-16 12:59:35,691 - INFO - RESULT: kmeans Algorithm for circles in k=3,Silhouette=0.3846,Calinski-Harabasz=785.7992,Dunn=0.5801
+2025-06-16 12:59:35,692 - INFO - Running k-Means on circles: k=4, init=farthest
+2025-06-16 12:59:35,700 - INFO - Final loss: 0.6924781
+2025-06-16 12:59:35,729 - INFO - RESULT: kmeans Algorithm for circles in k=4,Silhouette=0.3759,Calinski-Harabasz=886.5548,Dunn=0.6368
+2025-06-16 12:59:36,300 - INFO - Saved elbow plot to kmean-results/circles/elbow_circles.png
+2025-06-16 12:59:36,330 - INFO - RESULT: kmeans Algorithm for circles in k=2,Silhouette=0.3519,Calinski-Harabasz=570.2800,Dunn=0.4156,ARI=-0.0010,AMI=-0.0007,Homogeneity=0.0000,Completeness=0.0000,V-Measure=0.0000
+2025-06-16 12:59:36,334 - INFO - circles-K_means Prediction Accuracy (Hungarian Matched): 0.5025025025025025
+2025-06-16 12:59:36,335 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 12:59:37,900 - INFO - Saved pairwise features plot for circles.
+2025-06-16 12:59:38,036 - INFO - 
+--- PCA Components for circles ---
+2025-06-16 12:59:38,036 - INFO - 1st PC explains 50.4% variance
+2025-06-16 12:59:38,036 - INFO - 2nd PC explains 49.6% variance
+2025-06-16 12:59:38,037 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:38,632 - INFO - Saved PCA projection plot for circles.
+2025-06-16 12:59:44,352 - INFO - 
+--- T-SNE Diagnostics for circles ---
+2025-06-16 12:59:44,353 - INFO - Perplexity: 30
+2025-06-16 12:59:44,353 - INFO - KL Divergence: 0.24
+2025-06-16 12:59:44,354 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 12:59:45,335 - INFO - Saved t-SNE projection plot for circles.
+2025-06-16 12:59:45,336 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 12:59:45,338 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\circles
+2025-06-16 12:59:45,339 - INFO - Starting best_eps for circles  k=7
+2025-06-16 12:59:45,347 - INFO - points=999  k-dist[min]=0.0384  k-dist[max]=0.3210
+2025-06-16 12:59:45,349 - INFO - knee index=965  chosen eps=0.1887
+2025-06-16 12:59:46,352 - INFO - Saved k-distance plot -> ../dbscan_results/circles/elbow_circles_7NN_eps0.189.png
+2025-06-16 12:59:46,353 - INFO - Final parameters -> eps=0.1887  min_samples=7
+2025-06-16 12:59:46,363 - INFO - clusters=2  noise=4 (0.4%)
+2025-06-16 12:59:46,370 - INFO - ARI=0.992  Homog.=0.997  Compl.=0.964  AMI=0.980
+2025-06-16 12:59:46,384 - INFO - Dunn: 0.105
+2025-06-16 12:59:46,417 - INFO - Silhouette=0.075
+2025-06-16 12:59:46,419 - INFO - V-measure=0.980
+2025-06-16 12:59:46,420 - INFO - Calinski_Harabasz_Score: 0.757
+2025-06-16 12:59:48,421 - INFO - Saved DBSCAN plot -> dbscan_results/circles/dbscan_circles_eps0.189_min7.png
+2025-06-16 12:59:48,422 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\circles
+2025-06-16 12:59:48,424 - INFO - Starting best_eps for circles  k=7
+2025-06-16 12:59:48,429 - INFO - points=999  k-dist[min]=0.0384  k-dist[max]=0.3210
+2025-06-16 12:59:48,431 - INFO - knee index=965  chosen eps=0.1887
+2025-06-16 12:59:49,258 - INFO - Saved k-distance plot -> ../dbscan_results/circles/elbow_circles_7NN_eps0.189.png
+2025-06-16 12:59:49,258 - INFO - Final parameters -> eps=0.1887  min_samples=7
+2025-06-16 12:59:49,267 - INFO - clusters=2  noise=4 (0.4%)
+2025-06-16 12:59:49,275 - INFO - ARI=0.992  Homog.=0.997  Compl.=0.964  AMI=0.980
+2025-06-16 12:59:49,291 - INFO - Dunn: 0.105
+2025-06-16 12:59:49,324 - INFO - Silhouette=0.075
+2025-06-16 12:59:49,326 - INFO - V-measure=0.980
+2025-06-16 12:59:49,326 - INFO - Calinski_Harabasz_Score: 0.757
+2025-06-16 12:59:51,276 - INFO - Saved DBSCAN plot -> dbscan_results/circles/dbscan_circles_eps0.189_min7_pca.png
+2025-06-16 12:59:51,279 - INFO - circles-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 12:59:51,282 - INFO - circles-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 12:59:51,282 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:51,283 - INFO - 
+--- Running Spherical K-Means for circles (k=2) ---
+2025-06-16 12:59:51,313 - INFO - 
+--- Clustering Metrics for circles (k=2) ---
+2025-06-16 12:59:51,346 - INFO - Silhouette Coefficient: 0.354
+2025-06-16 12:59:51,349 - INFO - Homogeneity: 0.000
+2025-06-16 12:59:51,352 - INFO - Completeness: 0.000
+2025-06-16 12:59:51,354 - INFO - V-measure: 0.000
+2025-06-16 12:59:51,356 - INFO - Adjusted Rand Index: -0.001
+2025-06-16 12:59:51,359 - INFO - Adjusted Mutual Information: -0.001
+2025-06-16 12:59:51,361 - INFO - Calinski_Harabasz_Score: 577.956
+2025-06-16 12:59:51,362 - INFO - Dunn: 0.460
+2025-06-16 12:59:51,363 - INFO - --------------------------------------------------
+2025-06-16 12:59:51,363 - INFO - 
+--- Saving Visualizations for circles ---
+2025-06-16 12:59:51,696 - INFO - 
+--- PCA Components for circles ---
+2025-06-16 12:59:51,696 - INFO - 1st PC explains 50.4% variance
+2025-06-16 12:59:51,696 - INFO - 2nd PC explains 49.6% variance
+2025-06-16 12:59:51,698 - INFO - Total explained variance: 100.0%
+2025-06-16 12:59:54,848 - INFO - Saved 2D visualization plots for circles.
+2025-06-16 12:59:55,923 - INFO - Saved 3D PCA plot to spherical-results/3d/circles//circles_spherical_2_3d_pca.png
+2025-06-16 12:59:55,924 - INFO - Saved 3D PCA plot for circles.
+2025-06-16 12:59:55,928 - INFO - circles-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.5015015015015015
+2025-06-16 12:59:55,928 - INFO - 
+@---- ||||||||||||| moons Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:55,932 - INFO - Features: 2 without labels
+2025-06-16 12:59:55,932 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 12:59:55,932 - INFO - Running k-Means on moons: k=2, init=farthest
+2025-06-16 12:59:55,936 - INFO - Final loss: 0.8743936
+2025-06-16 12:59:56,392 - INFO - Saved convergence plot to kmean-results/moons/convergence_moons_k2.png
+2025-06-16 12:59:56,961 - INFO - Saved clusters plot to kmean-results/moons/clusters_moons_k2.png
+2025-06-16 12:59:57,553 - INFO - Saved cluster+loss plot to kmean-results/moons/clusters_loss_moons_k2.png
+2025-06-16 12:59:57,970 - INFO - Saved Dunn plot to kmean-results/moons/dunn_moons_k2.png
+2025-06-16 12:59:57,970 - INFO - Running k-Means on moons: k=1, init=farthest
+2025-06-16 12:59:57,974 - INFO - Final loss: 1.3444690
+2025-06-16 12:59:57,975 - INFO - RESULT: kmeans Algorithm for moons in k=1,Dunn=inf
+2025-06-16 12:59:57,975 - INFO - Running k-Means on moons: k=2, init=farthest
+2025-06-16 12:59:57,980 - INFO - Final loss: 0.8744109
+2025-06-16 12:59:58,012 - INFO - RESULT: kmeans Algorithm for moons in k=2,Silhouette=0.4964,Calinski-Harabasz=1395.7452,Dunn=0.5990
+2025-06-16 12:59:58,013 - INFO - Running k-Means on moons: k=3, init=farthest
+2025-06-16 12:59:58,020 - INFO - Final loss: 0.7364850
+2025-06-16 12:59:58,050 - INFO - RESULT: kmeans Algorithm for moons in k=3,Silhouette=0.4457,Calinski-Harabasz=1123.1424,Dunn=0.3699
+2025-06-16 12:59:58,050 - INFO - Running k-Means on moons: k=4, init=farthest
+2025-06-16 12:59:58,063 - INFO - Final loss: 0.6011940
+2025-06-16 12:59:58,093 - INFO - RESULT: kmeans Algorithm for moons in k=4,Silhouette=0.4368,Calinski-Harabasz=1281.9360,Dunn=0.6139
+2025-06-16 12:59:58,580 - INFO - Saved elbow plot to kmean-results/moons/elbow_moons.png
+2025-06-16 12:59:58,613 - INFO - RESULT: kmeans Algorithm for moons in k=2,Silhouette=0.4964,Calinski-Harabasz=1395.8828,Dunn=0.5992,ARI=0.4919,AMI=0.3921,Homogeneity=0.3925,Completeness=0.3926,V-Measure=0.3926
+2025-06-16 12:59:58,618 - INFO - moons-K_means Prediction Accuracy (Hungarian Matched): 0.8508508508508509
+2025-06-16 12:59:58,619 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 13:00:00,408 - INFO - Saved pairwise features plot for moons.
+2025-06-16 13:00:00,647 - INFO - 
+--- PCA Components for moons ---
+2025-06-16 13:00:00,648 - INFO - 1st PC explains 72.5% variance
+2025-06-16 13:00:00,648 - INFO - 2nd PC explains 27.5% variance
+2025-06-16 13:00:00,649 - INFO - Total explained variance: 100.0%
+2025-06-16 13:00:01,393 - INFO - Saved PCA projection plot for moons.
+2025-06-16 13:00:11,805 - INFO - 
+--- T-SNE Diagnostics for moons ---
+2025-06-16 13:00:11,805 - INFO - Perplexity: 30
+2025-06-16 13:00:11,806 - INFO - KL Divergence: 0.24
+2025-06-16 13:00:11,806 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 13:00:12,727 - INFO - Saved t-SNE projection plot for moons.
+2025-06-16 13:00:12,727 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 13:00:12,729 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\moons
+2025-06-16 13:00:12,730 - INFO - Starting best_eps for moons  k=7
+2025-06-16 13:00:12,735 - INFO - points=999  k-dist[min]=0.0233  k-dist[max]=0.3685
+2025-06-16 13:00:12,738 - INFO - knee index=972  chosen eps=0.1427
+2025-06-16 13:00:13,439 - INFO - Saved k-distance plot -> ../dbscan_results/moons/elbow_moons_7NN_eps0.143.png
+2025-06-16 13:00:13,440 - INFO - Final parameters -> eps=0.1427  min_samples=7
+2025-06-16 13:00:13,448 - INFO - clusters=2  noise=3 (0.3%)
+2025-06-16 13:00:13,455 - INFO - ARI=0.994  Homog.=0.997  Compl.=0.972  AMI=0.984
+2025-06-16 13:00:13,468 - INFO - Dunn: 0.218
+2025-06-16 13:00:13,498 - INFO - Silhouette=0.243
+2025-06-16 13:00:13,499 - INFO - V-measure=0.984
+2025-06-16 13:00:13,500 - INFO - Calinski_Harabasz_Score: 443.727
+2025-06-16 13:00:15,109 - INFO - Saved DBSCAN plot -> dbscan_results/moons/dbscan_moons_eps0.143_min7.png
+2025-06-16 13:00:15,110 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\moons
+2025-06-16 13:00:15,112 - INFO - Starting best_eps for moons  k=7
+2025-06-16 13:00:15,122 - INFO - points=999  k-dist[min]=0.0233  k-dist[max]=0.3685
+2025-06-16 13:00:15,128 - INFO - knee index=972  chosen eps=0.1427
+2025-06-16 13:00:16,066 - INFO - Saved k-distance plot -> ../dbscan_results/moons/elbow_moons_7NN_eps0.143.png
+2025-06-16 13:00:16,068 - INFO - Final parameters -> eps=0.1427  min_samples=7
+2025-06-16 13:00:16,076 - INFO - clusters=2  noise=3 (0.3%)
+2025-06-16 13:00:16,084 - INFO - ARI=0.994  Homog.=0.997  Compl.=0.972  AMI=0.984
+2025-06-16 13:00:16,100 - INFO - Dunn: 0.218
+2025-06-16 13:00:16,130 - INFO - Silhouette=0.243
+2025-06-16 13:00:16,133 - INFO - V-measure=0.984
+2025-06-16 13:00:16,134 - INFO - Calinski_Harabasz_Score: 443.727
+2025-06-16 13:00:17,411 - INFO - Saved DBSCAN plot -> dbscan_results/moons/dbscan_moons_eps0.143_min7_pca.png
+2025-06-16 13:00:17,414 - INFO - moons-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 13:00:17,416 - INFO - moons-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 13:00:17,416 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:17,416 - INFO - 
+--- Running Spherical K-Means for moons (k=2) ---
+2025-06-16 13:00:17,450 - INFO - 
+--- Clustering Metrics for moons (k=2) ---
+2025-06-16 13:00:17,479 - INFO - Silhouette Coefficient: 0.497
+2025-06-16 13:00:17,481 - INFO - Homogeneity: 0.421
+2025-06-16 13:00:17,483 - INFO - Completeness: 0.421
+2025-06-16 13:00:17,485 - INFO - V-measure: 0.421
+2025-06-16 13:00:17,486 - INFO - Adjusted Rand Index: 0.523
+2025-06-16 13:00:17,490 - INFO - Adjusted Mutual Information: 0.420
+2025-06-16 13:00:17,491 - INFO - Calinski_Harabasz_Score: 1393.476
+2025-06-16 13:00:17,492 - INFO - Dunn: 0.542
+2025-06-16 13:00:17,493 - INFO - --------------------------------------------------
+2025-06-16 13:00:17,493 - INFO - 
+--- Saving Visualizations for moons ---
+2025-06-16 13:00:17,624 - INFO - 
+--- PCA Components for moons ---
+2025-06-16 13:00:17,624 - INFO - 1st PC explains 72.5% variance
+2025-06-16 13:00:17,625 - INFO - 2nd PC explains 27.5% variance
+2025-06-16 13:00:17,625 - INFO - Total explained variance: 100.0%
+2025-06-16 13:00:19,581 - INFO - Saved 2D visualization plots for moons.
+2025-06-16 13:00:21,097 - INFO - Saved 3D PCA plot to spherical-results/3d/moons//moons_spherical_2_3d_pca.png
+2025-06-16 13:00:21,097 - INFO - Saved 3D PCA plot for moons.
+2025-06-16 13:00:21,102 - INFO - moons-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.8618618618618619
+2025-06-16 13:00:21,102 - INFO - 
+@---- ||||||||||||| digits Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:21,131 - INFO - Features: 2 without labels
+2025-06-16 13:00:21,132 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:21,132 - INFO - Running k-Means on digits: k=10, init=farthest
+2025-06-16 13:00:21,593 - INFO - Final loss: 6.7538232
+2025-06-16 13:00:22,187 - INFO - Saved convergence plot to kmean-results/digits/convergence_digits_k10.png
+2025-06-16 13:00:22,815 - INFO - Saved clusters plot to kmean-results/digits/clusters_digits_k10.png
+2025-06-16 13:00:23,460 - INFO - Saved cluster+loss plot to kmean-results/digits/clusters_loss_digits_k10.png
+2025-06-16 13:00:24,002 - INFO - Saved Dunn plot to kmean-results/digits/dunn_digits_k10.png
+2025-06-16 13:00:24,003 - INFO - Running k-Means on digits: k=1, init=farthest
+2025-06-16 13:00:24,013 - INFO - Final loss: 7.2762004
+2025-06-16 13:00:24,015 - INFO - RESULT: kmeans Algorithm for digits in k=1,Dunn=inf
+2025-06-16 13:00:24,016 - INFO - Running k-Means on digits: k=2, init=farthest
+2025-06-16 13:00:24,031 - INFO - Final loss: 7.2490537
+2025-06-16 13:00:24,123 - INFO - RESULT: kmeans Algorithm for digits in k=2,Silhouette=0.7886,Calinski-Harabasz=39.1380,Dunn=0.5226
+2025-06-16 13:00:24,125 - INFO - Running k-Means on digits: k=3, init=farthest
+2025-06-16 13:00:24,146 - INFO - Final loss: 7.2232052
+2025-06-16 13:00:24,240 - INFO - RESULT: kmeans Algorithm for digits in k=3,Silhouette=0.7798,Calinski-Harabasz=38.2471,Dunn=0.5197
+2025-06-16 13:00:24,242 - INFO - Running k-Means on digits: k=4, init=farthest
+2025-06-16 13:00:24,267 - INFO - Final loss: 7.1982922
+2025-06-16 13:00:24,366 - INFO - RESULT: kmeans Algorithm for digits in k=4,Silhouette=0.7716,Calinski-Harabasz=37.4850,Dunn=0.6959
+2025-06-16 13:00:24,368 - INFO - Running k-Means on digits: k=5, init=farthest
+2025-06-16 13:00:24,402 - INFO - Final loss: 7.1663816
+2025-06-16 13:00:24,504 - INFO - RESULT: kmeans Algorithm for digits in k=5,Silhouette=0.6556,Calinski-Harabasz=38.2886,Dunn=0.4343
+2025-06-16 13:00:24,506 - INFO - Running k-Means on digits: k=6, init=farthest
+2025-06-16 13:00:24,549 - INFO - Final loss: 7.1491380
+2025-06-16 13:00:24,645 - INFO - RESULT: kmeans Algorithm for digits in k=6,Silhouette=0.6560,Calinski-Harabasz=34.3348,Dunn=0.4516
+2025-06-16 13:00:24,649 - INFO - Running k-Means on digits: k=7, init=farthest
+2025-06-16 13:00:24,704 - INFO - Final loss: 7.1237840
+2025-06-16 13:00:24,809 - INFO - RESULT: kmeans Algorithm for digits in k=7,Silhouette=0.5793,Calinski-Harabasz=33.5151,Dunn=0.4028
+2025-06-16 13:00:24,812 - INFO - Running k-Means on digits: k=8, init=farthest
+2025-06-16 13:00:24,904 - INFO - Final loss: 7.0897025
+2025-06-16 13:00:25,012 - INFO - RESULT: kmeans Algorithm for digits in k=8,Silhouette=0.5070,Calinski-Harabasz=34.4878,Dunn=0.3543
+2025-06-16 13:00:25,014 - INFO - Running k-Means on digits: k=9, init=farthest
+2025-06-16 13:00:25,484 - INFO - Final loss: 6.7658488
+2025-06-16 13:00:25,670 - INFO - RESULT: kmeans Algorithm for digits in k=9,Silhouette=0.1012,Calinski-Harabasz=54.2448,Dunn=0.0986
+2025-06-16 13:00:25,675 - INFO - Running k-Means on digits: k=10, init=farthest
+2025-06-16 13:00:26,513 - INFO - Final loss: 6.7538232
+2025-06-16 13:00:26,624 - INFO - RESULT: kmeans Algorithm for digits in k=10,Silhouette=0.1012,Calinski-Harabasz=49.0422,Dunn=0.0986
+2025-06-16 13:00:26,627 - INFO - Running k-Means on digits: k=11, init=farthest
+2025-06-16 13:00:27,207 - INFO - Final loss: 6.7054794
+2025-06-16 13:00:27,296 - INFO - RESULT: kmeans Algorithm for digits in k=11,Silhouette=0.1042,Calinski-Harabasz=49.2436,Dunn=0.0983
+2025-06-16 13:00:27,298 - INFO - Running k-Means on digits: k=12, init=farthest
+2025-06-16 13:00:27,730 - INFO - Final loss: 6.6990858
+2025-06-16 13:00:27,806 - INFO - RESULT: kmeans Algorithm for digits in k=12,Silhouette=0.1045,Calinski-Harabasz=45.3671,Dunn=0.0984
+2025-06-16 13:00:27,808 - INFO - Running k-Means on digits: k=13, init=farthest
+2025-06-16 13:00:28,298 - INFO - Final loss: 6.6844026
+2025-06-16 13:00:28,380 - INFO - RESULT: kmeans Algorithm for digits in k=13,Silhouette=0.1048,Calinski-Harabasz=42.5404,Dunn=0.0983
+2025-06-16 13:00:28,383 - INFO - Running k-Means on digits: k=14, init=farthest
+2025-06-16 13:00:28,986 - INFO - Final loss: 6.5750974
+2025-06-16 13:00:29,083 - INFO - RESULT: kmeans Algorithm for digits in k=14,Silhouette=0.1014,Calinski-Harabasz=47.9491,Dunn=0.1426
+2025-06-16 13:00:29,086 - INFO - Running k-Means on digits: k=15, init=farthest
+2025-06-16 13:00:29,756 - INFO - Final loss: 6.3274915
+2025-06-16 13:00:29,833 - INFO - RESULT: kmeans Algorithm for digits in k=15,Silhouette=0.0995,Calinski-Harabasz=57.4733,Dunn=0.1579
+2025-06-16 13:00:29,835 - INFO - Running k-Means on digits: k=16, init=farthest
+2025-06-16 13:00:30,369 - INFO - Final loss: 6.1519553
+2025-06-16 13:00:30,446 - INFO - RESULT: kmeans Algorithm for digits in k=16,Silhouette=0.1118,Calinski-Harabasz=62.9938,Dunn=0.1638
+2025-06-16 13:00:30,448 - INFO - Running k-Means on digits: k=17, init=farthest
+2025-06-16 13:00:31,153 - INFO - Final loss: 5.9862040
+2025-06-16 13:00:31,252 - INFO - RESULT: kmeans Algorithm for digits in k=17,Silhouette=0.1227,Calinski-Harabasz=68.6154,Dunn=0.1581
+2025-06-16 13:00:31,255 - INFO - Running k-Means on digits: k=18, init=farthest
+2025-06-16 13:00:32,150 - INFO - Final loss: 5.7966692
+2025-06-16 13:00:32,229 - INFO - RESULT: kmeans Algorithm for digits in k=18,Silhouette=0.1334,Calinski-Harabasz=75.4596,Dunn=0.1912
+2025-06-16 13:00:32,231 - INFO - Running k-Means on digits: k=19, init=farthest
+2025-06-16 13:00:32,658 - INFO - Final loss: 5.7992278
+2025-06-16 13:00:32,728 - INFO - RESULT: kmeans Algorithm for digits in k=19,Silhouette=0.1224,Calinski-Harabasz=70.6476,Dunn=0.1805
+2025-06-16 13:00:32,731 - INFO - Running k-Means on digits: k=20, init=farthest
+2025-06-16 13:00:33,871 - INFO - Final loss: 5.7978834
+2025-06-16 13:00:33,951 - INFO - RESULT: kmeans Algorithm for digits in k=20,Silhouette=0.1280,Calinski-Harabasz=68.4179,Dunn=0.1889
+2025-06-16 13:00:34,387 - INFO - Saved elbow plot to kmean-results/digits/elbow_digits.png
+2025-06-16 13:00:34,468 - INFO - RESULT: kmeans Algorithm for digits in k=10,Silhouette=0.1012,Calinski-Harabasz=49.0422,Dunn=0.0986,ARI=0.1082,AMI=0.2363,Homogeneity=0.1603,Completeness=0.5132,V-Measure=0.2443
+2025-06-16 13:00:34,481 - INFO - digits-K_means Prediction Accuracy (Hungarian Matched): 0.19532554257095158
+2025-06-16 13:00:34,482 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 13:00:34,483 - INFO - Skipping pairwise features plot for digits as it has more than 4 features.
+2025-06-16 13:00:34,653 - INFO - 
+--- PCA Components for digits ---
+2025-06-16 13:00:34,653 - INFO - 1st PC explains 12.0% variance
+2025-06-16 13:00:34,654 - INFO - 2nd PC explains 9.6% variance
+2025-06-16 13:00:34,654 - INFO - Total explained variance: 21.6%
+2025-06-16 13:00:35,728 - INFO - Saved PCA projection plot for digits.
+2025-06-16 13:00:35,729 - INFO - Skipping t-SNE plot for digits as it has more than 1000 samples.
+2025-06-16 13:00:35,729 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 13:00:35,731 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\digits
+2025-06-16 13:00:35,735 - INFO - Starting best_eps for digits  k=10
+2025-06-16 13:00:36,157 - INFO - points=1797  k-dist[min]=2.2257  k-dist[max]=46.3133
+2025-06-16 13:00:36,162 - INFO - knee index=1744  chosen eps=8.5134
+2025-06-16 13:00:36,876 - INFO - Saved k-distance plot -> ../dbscan_results/digits/elbow_digits_10NN_eps8.513.png
+2025-06-16 13:00:36,878 - INFO - Final parameters -> eps=8.5134  min_samples=10
+2025-06-16 13:00:37,349 - INFO - clusters=1  noise=28 (1.6%)
+2025-06-16 13:00:37,355 - INFO - ARI=0.000  Homog.=0.002  Compl.=0.072  AMI=0.003
+2025-06-16 13:00:37,401 - INFO - Dunn: inf
+2025-06-16 13:00:38,534 - INFO - Saved DBSCAN plot -> dbscan_results/digits/dbscan_digits_eps8.513_min10.png
+2025-06-16 13:00:38,535 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\digits
+2025-06-16 13:00:38,538 - INFO - Starting best_eps for digits  k=10
+2025-06-16 13:00:38,767 - INFO - points=1797  k-dist[min]=2.2257  k-dist[max]=46.3133
+2025-06-16 13:00:38,769 - INFO - knee index=1744  chosen eps=8.5134
+2025-06-16 13:00:39,282 - INFO - Saved k-distance plot -> ../dbscan_results/digits/elbow_digits_10NN_eps8.513.png
+2025-06-16 13:00:39,283 - INFO - Final parameters -> eps=8.5134  min_samples=10
+2025-06-16 13:00:39,819 - INFO - clusters=1  noise=28 (1.6%)
+2025-06-16 13:00:39,826 - INFO - ARI=0.000  Homog.=0.002  Compl.=0.072  AMI=0.003
+2025-06-16 13:00:39,884 - INFO - Dunn: inf
+2025-06-16 13:00:39,911 - INFO - PCA vis -> 2D  var=21.6%
+2025-06-16 13:00:41,228 - INFO - Saved DBSCAN plot -> dbscan_results/digits/dbscan_digits_eps8.513_min10_pca.png
+2025-06-16 13:00:41,233 - INFO - digits-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 0.10231769361221028
+2025-06-16 13:00:41,236 - INFO - digits-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 0.10231769361221028
+2025-06-16 13:00:41,238 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:41,238 - INFO - 
+--- Running Spherical K-Means for digits (k=10) ---
+2025-06-16 13:00:41,922 - INFO - 
+--- Clustering Metrics for digits (k=10) ---
+2025-06-16 13:00:41,998 - INFO - Silhouette Coefficient: 0.122
+2025-06-16 13:00:42,001 - INFO - Homogeneity: 0.715
+2025-06-16 13:00:42,003 - INFO - Completeness: 0.718
+2025-06-16 13:00:42,005 - INFO - V-measure: 0.717
+2025-06-16 13:00:42,006 - INFO - Adjusted Rand Index: 0.658
+2025-06-16 13:00:42,016 - INFO - Adjusted Mutual Information: 0.714
+2025-06-16 13:00:42,020 - INFO - Calinski_Harabasz_Score: 103.339
+2025-06-16 13:00:42,022 - INFO - Dunn: 0.010
+2025-06-16 13:00:42,022 - INFO - --------------------------------------------------
+2025-06-16 13:00:42,022 - INFO - 
+--- Saving Visualizations for digits ---
+2025-06-16 13:00:42,203 - INFO - 
+--- PCA Components for digits ---
+2025-06-16 13:00:42,204 - INFO - 1st PC explains 12.0% variance
+2025-06-16 13:00:42,204 - INFO - 2nd PC explains 9.6% variance
+2025-06-16 13:00:42,205 - INFO - Total explained variance: 21.6%
+2025-06-16 13:00:45,555 - INFO - Saved 2D visualization plots for digits.
+2025-06-16 13:00:46,609 - INFO - Saved 3D PCA plot to spherical-results/3d/digits//digits_spherical_10_3d_pca.png
+2025-06-16 13:00:46,609 - INFO - Saved 3D PCA plot for digits.
+2025-06-16 13:00:46,628 - INFO - digits-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.7790762381747357
+2025-06-16 13:00:46,628 - INFO - 
+@---- ||||||||||||| complex9 Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:46,633 - INFO - Features: 2 without labels
+2025-06-16 13:00:46,633 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:00:46,634 - INFO - Running k-Means on complex9: k=9, init=farthest
+2025-06-16 13:00:46,659 - INFO - Final loss: 0.3940741
+2025-06-16 13:00:47,197 - INFO - Saved convergence plot to kmean-results/complex9/convergence_complex9_k9.png
+2025-06-16 13:00:47,816 - INFO - Saved clusters plot to kmean-results/complex9/clusters_complex9_k9.png
+2025-06-16 13:00:48,505 - INFO - Saved cluster+loss plot to kmean-results/complex9/clusters_loss_complex9_k9.png
+2025-06-16 13:00:48,919 - INFO - Saved Dunn plot to kmean-results/complex9/dunn_complex9_k9.png
+2025-06-16 13:00:48,920 - INFO - Running k-Means on complex9: k=1, init=farthest
+2025-06-16 13:00:48,922 - INFO - Final loss: 1.3373257
+2025-06-16 13:00:48,923 - INFO - RESULT: kmeans Algorithm for complex9 in k=1,Dunn=inf
+2025-06-16 13:00:48,923 - INFO - Running k-Means on complex9: k=2, init=farthest
+2025-06-16 13:00:48,930 - INFO - Final loss: 1.0221224
+2025-06-16 13:00:49,125 - INFO - RESULT: kmeans Algorithm for complex9 in k=2,Silhouette=0.3735,Calinski-Harabasz=1953.2624,Dunn=0.4743
+2025-06-16 13:00:49,125 - INFO - Running k-Means on complex9: k=3, init=farthest
+2025-06-16 13:00:49,137 - INFO - Final loss: 0.8003881
+2025-06-16 13:00:49,342 - INFO - RESULT: kmeans Algorithm for complex9 in k=3,Silhouette=0.3999,Calinski-Harabasz=2465.6538,Dunn=0.5170
+2025-06-16 13:00:49,344 - INFO - Running k-Means on complex9: k=4, init=farthest
+2025-06-16 13:00:49,353 - INFO - Final loss: 0.6034310
+2025-06-16 13:00:49,555 - INFO - RESULT: kmeans Algorithm for complex9 in k=4,Silhouette=0.4776,Calinski-Harabasz=3876.2104,Dunn=0.7393
+2025-06-16 13:00:49,557 - INFO - Running k-Means on complex9: k=5, init=farthest
+2025-06-16 13:00:49,570 - INFO - Final loss: 0.5414133
+2025-06-16 13:00:49,768 - INFO - RESULT: kmeans Algorithm for complex9 in k=5,Silhouette=0.4581,Calinski-Harabasz=3719.1178,Dunn=0.4576
+2025-06-16 13:00:49,769 - INFO - Running k-Means on complex9: k=6, init=farthest
+2025-06-16 13:00:49,780 - INFO - Final loss: 0.5231411
+2025-06-16 13:00:50,006 - INFO - RESULT: kmeans Algorithm for complex9 in k=6,Silhouette=0.3883,Calinski-Harabasz=3193.9948,Dunn=0.3824
+2025-06-16 13:00:50,008 - INFO - Running k-Means on complex9: k=7, init=farthest
+2025-06-16 13:00:50,035 - INFO - Final loss: 0.4549225
+2025-06-16 13:00:50,272 - INFO - RESULT: kmeans Algorithm for complex9 in k=7,Silhouette=0.4315,Calinski-Harabasz=3733.3758,Dunn=0.5530
+2025-06-16 13:00:50,274 - INFO - Running k-Means on complex9: k=8, init=farthest
+2025-06-16 13:00:50,300 - INFO - Final loss: 0.4200251
+2025-06-16 13:00:50,602 - INFO - RESULT: kmeans Algorithm for complex9 in k=8,Silhouette=0.4115,Calinski-Harabasz=3840.7246,Dunn=0.4517
+2025-06-16 13:00:50,604 - INFO - Running k-Means on complex9: k=9, init=farthest
+2025-06-16 13:00:50,625 - INFO - Final loss: 0.3982272
+2025-06-16 13:00:50,912 - INFO - RESULT: kmeans Algorithm for complex9 in k=9,Silhouette=0.4122,Calinski-Harabasz=3666.0079,Dunn=0.4949
+2025-06-16 13:00:50,914 - INFO - Running k-Means on complex9: k=10, init=farthest
+2025-06-16 13:00:50,932 - INFO - Final loss: 0.3717352
+2025-06-16 13:00:51,170 - INFO - RESULT: kmeans Algorithm for complex9 in k=10,Silhouette=0.4089,Calinski-Harabasz=3946.1252,Dunn=0.5093
+2025-06-16 13:00:51,172 - INFO - Running k-Means on complex9: k=11, init=farthest
+2025-06-16 13:00:51,206 - INFO - Final loss: 0.3467264
+2025-06-16 13:00:51,464 - INFO - RESULT: kmeans Algorithm for complex9 in k=11,Silhouette=0.4149,Calinski-Harabasz=4094.4596,Dunn=0.4976
+2025-06-16 13:00:51,472 - INFO - Running k-Means on complex9: k=12, init=farthest
+2025-06-16 13:00:51,511 - INFO - Final loss: 0.3355074
+2025-06-16 13:00:51,764 - INFO - RESULT: kmeans Algorithm for complex9 in k=12,Silhouette=0.4233,Calinski-Harabasz=3793.7819,Dunn=0.3937
+2025-06-16 13:00:51,766 - INFO - Running k-Means on complex9: k=13, init=farthest
+2025-06-16 13:00:51,796 - INFO - Final loss: 0.3175651
+2025-06-16 13:00:52,029 - INFO - RESULT: kmeans Algorithm for complex9 in k=13,Silhouette=0.4163,Calinski-Harabasz=4003.2678,Dunn=0.4336
+2025-06-16 13:00:52,031 - INFO - Running k-Means on complex9: k=14, init=farthest
+2025-06-16 13:00:52,057 - INFO - Final loss: 0.3080836
+2025-06-16 13:00:52,265 - INFO - RESULT: kmeans Algorithm for complex9 in k=14,Silhouette=0.4224,Calinski-Harabasz=3900.3862,Dunn=0.4328
+2025-06-16 13:00:52,268 - INFO - Running k-Means on complex9: k=15, init=farthest
+2025-06-16 13:00:52,299 - INFO - Final loss: 0.2900790
+2025-06-16 13:00:52,506 - INFO - RESULT: kmeans Algorithm for complex9 in k=15,Silhouette=0.4084,Calinski-Harabasz=4210.7011,Dunn=0.5203
+2025-06-16 13:00:52,509 - INFO - Running k-Means on complex9: k=16, init=farthest
+2025-06-16 13:00:52,540 - INFO - Final loss: 0.2769725
+2025-06-16 13:00:52,752 - INFO - RESULT: kmeans Algorithm for complex9 in k=16,Silhouette=0.4218,Calinski-Harabasz=4257.5770,Dunn=0.4685
+2025-06-16 13:00:52,755 - INFO - Running k-Means on complex9: k=17, init=farthest
+2025-06-16 13:00:52,795 - INFO - Final loss: 0.2644504
+2025-06-16 13:00:53,008 - INFO - RESULT: kmeans Algorithm for complex9 in k=17,Silhouette=0.4253,Calinski-Harabasz=4444.8885,Dunn=0.5053
+2025-06-16 13:00:53,010 - INFO - Running k-Means on complex9: k=18, init=farthest
+2025-06-16 13:00:53,051 - INFO - Final loss: 0.2589221
+2025-06-16 13:00:53,262 - INFO - RESULT: kmeans Algorithm for complex9 in k=18,Silhouette=0.4150,Calinski-Harabasz=4305.3555,Dunn=0.3665
+2025-06-16 13:00:53,706 - INFO - Saved elbow plot to kmean-results/complex9/elbow_complex9.png
+2025-06-16 13:00:53,944 - INFO - RESULT: kmeans Algorithm for complex9 in k=9,Silhouette=0.4082,Calinski-Harabasz=3807.2972,Dunn=0.4723,ARI=0.3704,AMI=0.6275,Homogeneity=0.6771,Completeness=0.5881,V-Measure=0.6295
+2025-06-16 13:00:53,955 - INFO - complex9-K_means Prediction Accuracy (Hungarian Matched): 0.48729792147806006
+2025-06-16 13:00:53,956 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 13:00:55,848 - INFO - Saved pairwise features plot for complex9.
+2025-06-16 13:00:55,996 - INFO - 
+--- PCA Components for complex9 ---
+2025-06-16 13:00:55,997 - INFO - 1st PC explains 55.7% variance
+2025-06-16 13:00:55,997 - INFO - 2nd PC explains 44.3% variance
+2025-06-16 13:00:55,997 - INFO - Total explained variance: 100.0%
+2025-06-16 13:00:56,725 - INFO - Saved PCA projection plot for complex9.
+2025-06-16 13:00:56,725 - INFO - Skipping t-SNE plot for complex9 as it has more than 1000 samples.
+2025-06-16 13:00:56,726 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 13:00:56,726 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\complex9
+2025-06-16 13:00:56,726 - INFO - Starting best_eps for complex9  k=4
+2025-06-16 13:00:56,735 - INFO - points=3031  k-dist[min]=0.0072  k-dist[max]=0.1091
+2025-06-16 13:00:56,738 - INFO - knee index=3007  chosen eps=0.0865
+2025-06-16 13:00:57,176 - INFO - Saved k-distance plot -> ../dbscan_results/complex9/elbow_complex9_4NN_eps0.087.png
+2025-06-16 13:00:57,178 - INFO - Final parameters -> eps=0.0865  min_samples=4
+2025-06-16 13:00:57,194 - INFO - clusters=9  noise=1 (0.0%)
+2025-06-16 13:00:57,204 - INFO - ARI=1.000  Homog.=1.000  Compl.=0.999  AMI=0.999
+2025-06-16 13:00:57,275 - INFO - Dunn: 0.026
+2025-06-16 13:00:57,446 - INFO - Silhouette=-0.057
+2025-06-16 13:00:57,448 - INFO - V-measure=0.999
+2025-06-16 13:00:57,450 - INFO - Calinski_Harabasz_Score: 932.832
+2025-06-16 13:00:59,297 - INFO - Saved DBSCAN plot -> dbscan_results/complex9/dbscan_complex9_eps0.087_min4.png
+2025-06-16 13:00:59,299 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\complex9
+2025-06-16 13:00:59,300 - INFO - Starting best_eps for complex9  k=4
+2025-06-16 13:00:59,310 - INFO - points=3031  k-dist[min]=0.0072  k-dist[max]=0.1091
+2025-06-16 13:00:59,313 - INFO - knee index=3007  chosen eps=0.0865
+2025-06-16 13:00:59,878 - INFO - Saved k-distance plot -> ../dbscan_results/complex9/elbow_complex9_4NN_eps0.087.png
+2025-06-16 13:00:59,879 - INFO - Final parameters -> eps=0.0865  min_samples=4
+2025-06-16 13:00:59,898 - INFO - clusters=9  noise=1 (0.0%)
+2025-06-16 13:00:59,909 - INFO - ARI=1.000  Homog.=1.000  Compl.=0.999  AMI=0.999
+2025-06-16 13:00:59,992 - INFO - Dunn: 0.026
+2025-06-16 13:01:00,227 - INFO - Silhouette=-0.057
+2025-06-16 13:01:00,229 - INFO - V-measure=0.999
+2025-06-16 13:01:00,231 - INFO - Calinski_Harabasz_Score: 932.832
+2025-06-16 13:01:02,197 - INFO - Saved DBSCAN plot -> dbscan_results/complex9/dbscan_complex9_eps0.087_min4_pca.png
+2025-06-16 13:01:02,202 - INFO - complex9-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 13:01:02,206 - INFO - complex9-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 1.0
+2025-06-16 13:01:02,206 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:01:02,207 - INFO - 
+--- Running Spherical K-Means for complex9 (k=9) ---
+2025-06-16 13:01:02,344 - INFO - 
+--- Clustering Metrics for complex9 (k=9) ---
+2025-06-16 13:01:02,569 - INFO - Silhouette Coefficient: 0.339
+2025-06-16 13:01:02,572 - INFO - Homogeneity: 0.654
+2025-06-16 13:01:02,574 - INFO - Completeness: 0.570
+2025-06-16 13:01:02,577 - INFO - V-measure: 0.609
+2025-06-16 13:01:02,579 - INFO - Adjusted Rand Index: 0.347
+2025-06-16 13:01:02,589 - INFO - Adjusted Mutual Information: 0.607
+2025-06-16 13:01:02,592 - INFO - Calinski_Harabasz_Score: 2931.445
+2025-06-16 13:01:02,594 - INFO - Dunn: 0.182
+2025-06-16 13:01:02,594 - INFO - --------------------------------------------------
+2025-06-16 13:01:02,595 - INFO - 
+--- Saving Visualizations for complex9 ---
+2025-06-16 13:01:02,801 - INFO - 
+--- PCA Components for complex9 ---
+2025-06-16 13:01:02,801 - INFO - 1st PC explains 55.7% variance
+2025-06-16 13:01:02,801 - INFO - 2nd PC explains 44.3% variance
+2025-06-16 13:01:02,802 - INFO - Total explained variance: 100.0%
+2025-06-16 13:01:07,733 - INFO - Saved 2D visualization plots for complex9.
+2025-06-16 13:01:08,981 - INFO - Saved 3D PCA plot to spherical-results/3d/complex9//complex9_spherical_9_3d_pca.png
+2025-06-16 13:01:08,982 - INFO - Saved 3D PCA plot for complex9.
+2025-06-16 13:01:08,994 - INFO - complex9-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.5701088749587595
+2025-06-16 13:01:08,995 - INFO - 
+@---- ||||||||||||| vehicle Dataset ||||||||||||| ----@
+
+2025-06-16 13:01:09,003 - INFO - Features: 2 without labels
+2025-06-16 13:01:09,004 - INFO - 
+@---- ||||||||||||| K-Means algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:01:09,005 - INFO - Running k-Means on vehicle: k=3, init=farthest
+2025-06-16 13:01:09,013 - INFO - Final loss: 2.8771545
+2025-06-16 13:01:09,572 - INFO - Saved convergence plot to kmean-results/vehicle/convergence_vehicle_k3.png
+2025-06-16 13:01:10,123 - INFO - Saved clusters plot to kmean-results/vehicle/clusters_vehicle_k3.png
+2025-06-16 13:01:10,685 - INFO - Saved cluster+loss plot to kmean-results/vehicle/clusters_loss_vehicle_k3.png
+2025-06-16 13:01:11,134 - INFO - Saved Dunn plot to kmean-results/vehicle/dunn_vehicle_k3.png
+2025-06-16 13:01:11,135 - INFO - Running k-Means on vehicle: k=1, init=farthest
+2025-06-16 13:01:11,137 - INFO - Final loss: 3.9411445
+2025-06-16 13:01:11,139 - INFO - RESULT: kmeans Algorithm for vehicle in k=1,Dunn=inf
+2025-06-16 13:01:11,139 - INFO - Running k-Means on vehicle: k=2, init=farthest
+2025-06-16 13:01:11,141 - INFO - Final loss: 3.8498423
+2025-06-16 13:01:11,161 - INFO - RESULT: kmeans Algorithm for vehicle in k=2,Silhouette=0.6175,Calinski-Harabasz=80.9363,Dunn=0.7534
+2025-06-16 13:01:11,161 - INFO - Running k-Means on vehicle: k=3, init=farthest
+2025-06-16 13:01:11,168 - INFO - Final loss: 2.8771545
+2025-06-16 13:01:11,184 - INFO - RESULT: kmeans Algorithm for vehicle in k=3,Silhouette=0.4003,Calinski-Harabasz=419.3669,Dunn=0.4981
+2025-06-16 13:01:11,185 - INFO - Running k-Means on vehicle: k=4, init=farthest
+2025-06-16 13:01:11,194 - INFO - Final loss: 2.8672594
+2025-06-16 13:01:11,211 - INFO - RESULT: kmeans Algorithm for vehicle in k=4,Silhouette=0.3974,Calinski-Harabasz=282.9391,Dunn=0.4481
+2025-06-16 13:01:11,212 - INFO - Running k-Means on vehicle: k=5, init=farthest
+2025-06-16 13:01:11,218 - INFO - Final loss: 2.7823902
+2025-06-16 13:01:11,236 - INFO - RESULT: kmeans Algorithm for vehicle in k=5,Silhouette=0.3403,Calinski-Harabasz=242.5485,Dunn=0.4139
+2025-06-16 13:01:11,238 - INFO - Running k-Means on vehicle: k=6, init=farthest
+2025-06-16 13:01:11,247 - INFO - Final loss: 2.4574718
+2025-06-16 13:01:11,265 - INFO - RESULT: kmeans Algorithm for vehicle in k=6,Silhouette=0.2694,Calinski-Harabasz=300.2061,Dunn=0.3610
+2025-06-16 13:01:11,652 - INFO - Saved elbow plot to kmean-results/vehicle/elbow_vehicle.png
+2025-06-16 13:01:11,674 - INFO - RESULT: kmeans Algorithm for vehicle in k=3,Silhouette=0.4003,Calinski-Harabasz=419.3669,Dunn=0.4981,ARI=0.0854,AMI=0.1422,Homogeneity=0.1091,Completeness=0.2181,V-Measure=0.1454
+2025-06-16 13:01:11,678 - INFO - vehicle-K_means Prediction Accuracy (Hungarian Matched): 0.36879432624113473
+2025-06-16 13:01:11,679 - INFO - Saving K-Means visualizations to: E:\PythonProject\kmean-results\vis
+2025-06-16 13:01:11,679 - INFO - Skipping pairwise features plot for vehicle as it has more than 4 features.
+2025-06-16 13:01:11,834 - INFO - 
+--- PCA Components for vehicle ---
+2025-06-16 13:01:11,835 - INFO - 1st PC explains 52.4% variance
+2025-06-16 13:01:11,835 - INFO - 2nd PC explains 16.8% variance
+2025-06-16 13:01:11,835 - INFO - Total explained variance: 69.2%
+2025-06-16 13:01:12,410 - INFO - Saved PCA projection plot for vehicle.
+2025-06-16 13:01:18,695 - INFO - 
+--- T-SNE Diagnostics for vehicle ---
+2025-06-16 13:01:18,696 - INFO - Perplexity: 30
+2025-06-16 13:01:18,696 - INFO - KL Divergence: 0.88
+2025-06-16 13:01:18,697 - INFO - Note: t-SNE components don't explain variance like PCA.
+2025-06-16 13:01:19,435 - INFO - Saved t-SNE projection plot for vehicle.
+2025-06-16 13:01:19,436 - INFO - 
+@---- ||||||||||||| DBSCAN algorithm ||||||||||||| ----@
+
+2025-06-16 13:01:19,436 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\vehicle
+2025-06-16 13:01:19,438 - INFO - Starting best_eps for vehicle  k=30
+2025-06-16 13:01:19,464 - INFO - points=846  k-dist[min]=1.2516  k-dist[max]=16.0431
+2025-06-16 13:01:19,466 - INFO - knee index=825  chosen eps=3.9213
+2025-06-16 13:01:20,015 - INFO - Saved k-distance plot -> ../dbscan_results/vehicle/elbow_vehicle_30NN_eps3.921.png
+2025-06-16 13:01:20,015 - INFO - Final parameters -> eps=3.9213  min_samples=30
+2025-06-16 13:01:20,073 - INFO - clusters=1  noise=8 (0.9%)
+2025-06-16 13:01:20,078 - INFO - ARI=0.001  Homog.=0.006  Compl.=0.154  AMI=0.009
+2025-06-16 13:01:20,092 - INFO - Dunn: inf
+2025-06-16 13:01:21,338 - INFO - Saved DBSCAN plot -> dbscan_results/vehicle/dbscan_vehicle_eps3.921_min30.png
+2025-06-16 13:01:21,338 - INFO - DBSCAN outputs will be saved to E:\PythonProject\dbscan_results\vehicle
+2025-06-16 13:01:21,340 - INFO - Starting best_eps for vehicle  k=30
+2025-06-16 13:01:21,368 - INFO - points=846  k-dist[min]=1.2516  k-dist[max]=16.0431
+2025-06-16 13:01:21,369 - INFO - knee index=825  chosen eps=3.9213
+2025-06-16 13:01:21,884 - INFO - Saved k-distance plot -> ../dbscan_results/vehicle/elbow_vehicle_30NN_eps3.921.png
+2025-06-16 13:01:21,884 - INFO - Final parameters -> eps=3.9213  min_samples=30
+2025-06-16 13:01:21,925 - INFO - clusters=1  noise=8 (0.9%)
+2025-06-16 13:01:21,929 - INFO - ARI=0.001  Homog.=0.006  Compl.=0.154  AMI=0.009
+2025-06-16 13:01:21,939 - INFO - Dunn: inf
+2025-06-16 13:01:21,947 - INFO - PCA vis -> 2D  var=69.2%
+2025-06-16 13:01:23,063 - INFO - Saved DBSCAN plot -> dbscan_results/vehicle/dbscan_vehicle_eps3.921_min30_pca.png
+2025-06-16 13:01:23,067 - INFO - vehicle-DBSCAN-nd Prediction Accuracy (Hungarian Matched): 0.25894988066825775
+2025-06-16 13:01:23,071 - INFO - vehicle-DBSCAN-2d Prediction Accuracy (Hungarian Matched): 0.25894988066825775
+2025-06-16 13:01:23,071 - INFO - 
+@---- ||||||||||||| spherical algorithm Dataset ||||||||||||| ----@
+
+2025-06-16 13:01:23,071 - INFO - 
+--- Running Spherical K-Means for vehicle (k=3) ---
+2025-06-16 13:01:23,129 - INFO - 
+--- Clustering Metrics for vehicle (k=3) ---
+2025-06-16 13:01:23,145 - INFO - Silhouette Coefficient: 0.287
+2025-06-16 13:01:23,148 - INFO - Homogeneity: 0.085
+2025-06-16 13:01:23,149 - INFO - Completeness: 0.108
+2025-06-16 13:01:23,151 - INFO - V-measure: 0.095
+2025-06-16 13:01:23,152 - INFO - Adjusted Rand Index: 0.082
+2025-06-16 13:01:23,155 - INFO - Adjusted Mutual Information: 0.093
+2025-06-16 13:01:23,155 - INFO - Calinski_Harabasz_Score: 441.830
+2025-06-16 13:01:23,156 - INFO - Dunn: 0.040
+2025-06-16 13:01:23,156 - INFO - --------------------------------------------------
+2025-06-16 13:01:23,156 - INFO - 
+--- Saving Visualizations for vehicle ---
+2025-06-16 13:01:23,299 - INFO - 
+--- PCA Components for vehicle ---
+2025-06-16 13:01:23,300 - INFO - 1st PC explains 52.4% variance
+2025-06-16 13:01:23,300 - INFO - 2nd PC explains 16.8% variance
+2025-06-16 13:01:23,300 - INFO - Total explained variance: 69.2%
+2025-06-16 13:01:25,468 - INFO - Saved 2D visualization plots for vehicle.
+2025-06-16 13:01:26,551 - INFO - Saved 3D PCA plot to spherical-results/3d/vehicle//vehicle_spherical_3_3d_pca.png
+2025-06-16 13:01:26,552 - INFO - Saved 3D PCA plot for vehicle.
+2025-06-16 13:01:26,556 - INFO - vehicle-Spherical_K_means Prediction Accuracy (Hungarian Matched): 0.3557919621749409
+2025-06-16 13:01:26,556 - INFO - 
+--- All Clustering Processes Completed ---
