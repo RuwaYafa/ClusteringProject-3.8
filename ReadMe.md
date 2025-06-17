@@ -44,7 +44,7 @@
 ---
 ### ▶️ How run the code:
 In cli:
-!git clone https://github.com/RuwaYafa/ClusteringProject-3.8.git
+- git clone https://github.com/RuwaYafa/ClusteringProject-3.8.git
 - conda create -n k-means python=3.8 
 - conda activate k-means
 - pip install -r requirements.txt
