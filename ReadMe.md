@@ -1,4 +1,4 @@
-## Machine learning Project- Kmeans 
+## Machine learning Project- K-means 
 
 - Lecture: Dr. Mohammed Khalilia
 - Ruwa F. AbuHweidi @ 2025
@@ -43,8 +43,12 @@
 
 ---
 ### ▶️ How run the code:
->In cli:
->>python main.py
+In cli:
+!git clone https://github.com/RuwaYafa/ClusteringProject-3.8.git
+$ conda create -n k-means python=3.8
+$ conda activate k-means
+$ pip install -r requirements.txt
+$ python ClusteringProject-3.8/main.py
 
 ---
 ### ▶️ Step 1: Understand the Project Requirements
