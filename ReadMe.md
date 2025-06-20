@@ -51,6 +51,7 @@ In cli:
 - conda activate k-means
 - pip install -r requirements3.8.txt
 - python main.py
+  
 '''
 
 ---
