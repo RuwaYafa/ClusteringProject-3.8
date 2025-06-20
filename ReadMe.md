@@ -1,7 +1,7 @@
 ## Machine learning Project- K-means 
 
 - Lecture: Dr. Mohammed Khalilia
-- Ruwa F. AbuHweidi @ 2025
+- Ruwa F. AbuHweidi 
 
 
 ![img.png](project_result/img.png)
@@ -48,7 +48,7 @@ In cli:
 - conda create -n k-means python=3.8 
 - conda activate k-means
 - pip install -r requirements3.8.txt
-- python ClusteringProject-3.8/main.py
+- python main.py
 
 ---
 ### ▶️ Step 1: Understand the Project Requirements
@@ -60,17 +60,17 @@ In cli:
 
 >Additional Tasks:
 Compare with DBSCAN and Spherical Clustering (using existing implementations)
-Apply to provided datasets
+Apply to the provided datasets
 >>│   │   ├── spherical_rfa.py
->>>Base code inspiring from: 
->>>>https://github.com/jasonlaska/spherecluster
+>>> Base code inspired by: 
+>>>> https://github.com/jasonlaska/spherecluster
 
 >package:
 >>https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
 
 >│   │   ├── dbscan.py
 >>base code: https://stackoverflow.com/questions/61233304/clustering-with-dbscan-how-to-train-a-model-if-you-dont-set-the-number-of-clust
-Visualize results (including dimensionality reduction for high-dimension data)
+Visualize results (including dimensionality reduction for high-dimensional data)
 Write a comprehensive report in LaTeX
 
 >│   │   └── visualization.py
@@ -78,30 +78,30 @@ Write a comprehensive report in LaTeX
 ---
 ### ▶️ Step 2: Set Up Development Environment
 Install required Python packages: 
-- All clustering algorithm work on python 3.8
-- All clustering algorithm work on python 3.12 except spherical clustering
+- All clustering algorithms work on Python 3.8
+- All clustering algorithms work on Python 3.12, except spherical clustering
       
 ---
 ### ▶️ Step 3: Implement k-Means from Scratch:
 
 ### ▶️ Pseudocode for k-Means:
-[1] Initialize k centroids randomly from data points
+[1] Initialize k centroids randomly from the data points
 
 [2] Repeat until convergence:
-   - Assign each point to nearest centroid (Euclidean distance)
-   - Update centroids as mean of assigned points
+   - Assign each point to the nearest centroid (Euclidean distance)
+   - Update centroids as the mean of assigned points
    - Check if centroids changed significantly
 
 ---
 ### ▶️ Python Implementation Steps:
 
->The project implemented in python 3.12.
-you can run k_mean and DBSCAN except Spherical clustering.
-It implemented in python 3.8, with slightly change in the spherical library 
+>The project was implemented in Python 3.12.
+You can run k-means and DBSCA, except for Spherical clustering.
+It is implemented in Python 3.8, with a slight change in the spherical library 
 https://github.com/jasonlaska/spherecluster.git
 https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
 
-- If you run the code in just comment the Call of spherical_rfa in the end of main.py file
+- If you run the code in just comment out the Call to spherical_rfa at the end of the main.py file
 
 ---
 ### ▶️ Hints to run spherical_rfa.py:
