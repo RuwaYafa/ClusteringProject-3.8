@@ -42,13 +42,15 @@
 </code></pre>
 
 ---
-### ▶️ How run the code:
+### ▶️ How to run the code:
 In cli:
-- git clone https://github.com/RuwaYafa/ClusteringProject-3.8.git
-- conda create -n k-means python=3.8 
-- conda activate k-means
-- pip install -r requirements3.8.txt
-- python main.py
+'''
+git clone https://github.com/RuwaYafa/ClusteringProject-3.8.git
+conda create -n k-means python=3.8 
+conda activate k-means
+pip install -r requirements3.8.txt
+python main.py
+'''
 
 ---
 ### ▶️ Step 1: Understand the Project Requirements
@@ -62,8 +64,7 @@ In cli:
 Compare with DBSCAN and Spherical Clustering (using existing implementations)
 Apply to the provided datasets
 >>│   │   ├── spherical_rfa.py
->>> Base code inspired by: 
->>>> https://github.com/jasonlaska/spherecluster
+>> Base code inspired by: https://github.com/jasonlaska/spherecluster
 
 >package:
 >>https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
@@ -84,7 +85,7 @@ Install required Python packages:
 ---
 ### ▶️ Step 3: Implement k-Means from Scratch:
 
-### ▶️ Pseudocode for k-Means:
+>[!Pseudocode for k-Means:]
 [1] Initialize k centroids randomly from the data points
 
 [2] Repeat until convergence:
@@ -118,7 +119,7 @@ https://www.python.org/downloads/release/python-3810/
 
 >pip install requests
 
--[x] from -> https://www.cgohlke.com/
+- from -> https://www.cgohlke.com/
 - pip install setuptools-50.0.0-py3-none-any.whl  # https://pypi.org/project/setuptools/50.0.0/
 - pip install setuptools==50.0.0
 - pip install pip-20.2.4-py2.py3-none-any.whl > in download  # https://www.piwheels.org/project/pip/
@@ -126,8 +127,7 @@ https://www.python.org/downloads/release/python-3810/
 - pip install requests
 
 ---
-### ▶️ pip freeze 
-To collect the requirements:
+[!Tip] pip freeze to collect the requirements:
 - pip install -r requirement3.8.txt
 - pip install -r requirement3.12.txt
 
