@@ -66,13 +66,13 @@ In cli:
 Compare with DBSCAN and Spherical Clustering (using existing implementations)
 Apply to the provided datasets
 >│   │   ├── spherical_rfa.py
-> Base code inspired by: https://github.com/jasonlaska/spherecluster
+- Base code inspired by: https://github.com/jasonlaska/spherecluster
 
 >package:
->https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
+- https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
 
 >│   │   ├── dbscan.py
->>ase code: https://stackoverflow.com/questions/61233304/clustering-with-dbscan-how-to-train-a-model-if-you-dont-set-the-number-of-clust
+- Base code: https://stackoverflow.com/questions/61233304/clustering-with-dbscan-how-to-train-a-model-if-you-dont-set-the-number-of-clust
 Visualize results (including dimensionality reduction for high-dimensional data)
 Write a comprehensive report in LaTeX
 
