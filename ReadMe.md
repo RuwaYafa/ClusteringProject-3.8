@@ -76,14 +76,13 @@ Write a comprehensive report in LaTeX
 >│   │   └── visualization.py
 
 ---
-### ▶️ Step 2: Set Up Your Development Environment
+### ▶️ Step 2: Set Up Development Environment
 Install required Python packages: 
 - All clustering algorithm work on python 3.8
 - All clustering algorithm work on python 3.12 except spherical clustering
       
 ---
-### ▶️ Step 3: Implement k-Means from Scratch
-Here's how to approach the implementation:
+### ▶️ Step 3: Implement k-Means from Scratch:
 
 ### ▶️ Pseudocode for k-Means:
 [1] Initialize k centroids randomly from data points
@@ -102,7 +101,7 @@ It implemented in python 3.8, with slightly change in the spherical library
 https://github.com/jasonlaska/spherecluster.git
 https://pypi.org/project/spherecluster/0.1.7/#spherecluster-0.1.7-py3-none-any.whl
 
--[x] If you run the code in just comment the Call of spherical_rfa in the end of main.py file
+- If you run the code in just comment the Call of spherical_rfa in the end of main.py file
 
 ---
 ### ▶️ Hints to run spherical_rfa.py:
@@ -128,16 +127,16 @@ https://www.python.org/downloads/release/python-3810/
 
 ---
 ### ▶️ pip freeze 
-To collect the requirement:
+To collect the requirements:
 - pip install -r requirement3.8.txt
 - pip install -r requirement3.12.txt
 
 
 ---
 ##### 🙏 Acknowledgments
-We thank Professor [Mohammed Khalilia](https://github.com/mohammedkhalilia) for his expert guidance and open educational contributions on GitHub:
+We thank Professor [Mohammed Khalilia](https://github.com/mohammedkhalilia) for his expert guidance and open educational contributions on GitHub.
 
-We also appreciate the help of Large Language Models (LLMs), which offered respectful and minimal guidance when asked, without altering the author's custom implementations.
+We also appreciate the help of large language models (LLMs), which offered respectful and minimal guidance when asked without altering the author's custom implementations.
 
 —
 Ruwa Yafa @ 2025
